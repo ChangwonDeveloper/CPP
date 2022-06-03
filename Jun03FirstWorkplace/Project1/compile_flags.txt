@@ -1,0 +1,3 @@
+-IC:\Users\offic\Desktop\Programming\Udemy\CPP\Jun03FirstWorkplace\Project1
+-target
+x86_64-pc-windows-gnu
