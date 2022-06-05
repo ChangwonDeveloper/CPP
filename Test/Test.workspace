@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeLite_Workspace Name="Test" Database="" Version="10000">
+  <Project Name="Test" Path="Test/Test.project" Active="No"/>
+  <Project Name="EqualityOperators" Path="EqualityOperators/EqualityOperators.project" Active="No"/>
+  <Project Name="Section8_challenge" Path="Section8_challenge/Section8_challenge.project" Active="No"/>
+  <Project Name="Section9_challenge" Path="Section9_challenge/Section9_challenge.project" Active="Yes"/>
+  <BuildMatrix>
+    <WorkspaceConfiguration Name="Debug" Selected="yes">
+      <Environment/>
+      <Project Name="Test" ConfigName="Debug"/>
+      <Project Name="EqualityOperators" ConfigName="Debug"/>
+      <Project Name="Section8_challenge" ConfigName="Debug"/>
+      <Project Name="Section9_challenge" ConfigName="Debug"/>
+    </WorkspaceConfiguration>
+    <WorkspaceConfiguration Name="Release" Selected="yes">
+      <Environment/>
+      <Project Name="Test" ConfigName="Release"/>
+      <Project Name="EqualityOperators" ConfigName="Release"/>
+      <Project Name="Section8_challenge" ConfigName="Release"/>
+      <Project Name="Section9_challenge" ConfigName="Release"/>
+    </WorkspaceConfiguration>
+  </BuildMatrix>
+</CodeLite_Workspace>

@@ -1,0 +1,3 @@
+-IC:\Users\offic\Desktop\Programming\Udemy\CPP\sourcecode\Section9\ForLoop
+-target
+i686-pc-windows-gnu
