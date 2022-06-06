@@ -4,7 +4,7 @@
 
 using namespace std;
 
-void local_example();
+void local_example(int);
 void global_example();
 void static_local_example();
 

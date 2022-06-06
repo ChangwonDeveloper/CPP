@@ -30,14 +30,54 @@ Reuse existing functionality in libraries and in the std::string class!
 */
 
 #include <iostream>
+#include <string>
+#include <cctype>
+#include <cstring>
 
 int main() {
     
-    string alphabet {"abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ"};
-    string key  {"XZNLWEBGJHQDYVTKFUOMPCIASRxznlwebgjhqdyvtkfuompciasr"};
+    std::string message;
+    std::string encropyed_message;
+    std::string decrypted_message;
+    
+    std::string alphabet {"abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ"};
+    std::string key  {"XZNLWEBGJHQDYVTKFUOMPCIASRxznlwebgjhqdyvtkfuompciasr"};
+    std::cout << "Enter your secret message : ";
+    getline(std::cin, message);
+    
+    std::cout << "\nEncrypting message...." << std::endl;
+        for(auto i : message){
+            int index {0};
+            if(isalpha(i) == 0){
+                encropyed_message += i;
+            }else{
+                while(i != alphabet.at(index)){
+                index++;
+            }
+                encropyed_message += key.at(index);
+            }
+        }
+    
+    std::cout << "\nEncrypted message : " << encropyed_message << std::endl;
+    
+    std::cout << "\nDecrypting message.... " << std::endl;
+         for(auto i : encropyed_message){
+            int index {0};
+            if(isalpha(i) == 0){
+                decrypted_message += i;
+            }else{
+                while(i != key.at(index)){
+                index++;
+            }
+                decrypted_message += alphabet.at(index);
+            }
+        }   
+    
+    std::cout << "\nDecrypted message : " << decrypted_message << std::endl;
     
     
-    cout << endl;
+    
+
     return 0;
 }
 

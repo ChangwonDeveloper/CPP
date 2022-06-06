@@ -7,6 +7,7 @@ using namespace std;
 void print_array(const int arr[], size_t size);
 void set_array(int arr[], size_t size, int value);
 
+// const, cannot modify
 void print_array(const int arr[], size_t size) {  // const
     for (size_t i{0}; i < size; ++i)
         cout << arr[i] << " ";
@@ -15,6 +16,7 @@ void print_array(const int arr[], size_t size) {  // const
 }
 
 // set each array element to value
+// array pass address to the function. So, the actual array also changed on the main function
 void set_array(int arr[], size_t size, int value) {
     for (size_t i{0}; i < size; ++i)
         arr[i] = value;

@@ -1,0 +1,3 @@
+-IC:\Users\offic\Desktop\Programming\Udemy\CPP\sourcecode\Section11\ScopeExample
+-target
+i686-pc-windows-gnu

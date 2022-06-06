@@ -1,8 +1,8 @@
 .PHONY: clean All
 
 All:
-	@echo "----------Building project:[ Math - Debug ]----------"
-	@cd "Math" && "$(MAKE)" -f  "Math.mk"
+	@echo "----------Building project:[ PassByReference - Debug ]----------"
+	@cd "PassByReference" && "$(MAKE)" -f  "PassByReference.mk"
 clean:
-	@echo "----------Cleaning project:[ Math - Debug ]----------"
-	@cd "Math" && "$(MAKE)" -f  "Math.mk" clean
+	@echo "----------Cleaning project:[ PassByReference - Debug ]----------"
+	@cd "PassByReference" && "$(MAKE)" -f  "PassByReference.mk" clean

@@ -1,8 +1,8 @@
 .PHONY: clean All
 
 All:
-	@echo "----------Building project:[ CStyleStrings - Debug ]----------"
-	@cd "CStyleStrings" && "$(MAKE)" -f  "CStyleStrings.mk"
+	@echo "----------Building project:[ LetterPyramidChallenge - Debug ]----------"
+	@cd "LetterPyramidChallenge" && "$(MAKE)" -f  "LetterPyramidChallenge.mk"
 clean:
-	@echo "----------Cleaning project:[ CStyleStrings - Debug ]----------"
-	@cd "CStyleStrings" && "$(MAKE)" -f  "CStyleStrings.mk" clean
+	@echo "----------Cleaning project:[ LetterPyramidChallenge - Debug ]----------"
+	@cd "LetterPyramidChallenge" && "$(MAKE)" -f  "LetterPyramidChallenge.mk" clean

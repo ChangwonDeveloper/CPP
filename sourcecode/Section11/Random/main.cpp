@@ -21,7 +21,7 @@ int main() {
     srand(time(nullptr));  
     
     for (size_t i{1}; i<=count; ++i)  {
-        random_number = rand() % max + min;     // generate a random number [min, max]
+        random_number = rand() % (max - min + 1) + min;     // generate a random number [min, max]
         cout << random_number << endl;
     }
 
