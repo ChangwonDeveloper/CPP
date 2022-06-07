@@ -89,10 +89,15 @@ Additional functionality if you wish to extend this program.
 - come up with your own ideas!
 
 Good luck!
-
+        - You can then define a function that reads the selection from the user and returns it in uppercase
 */
 #include <iostream>
 #include <vector>
+#include <string>
+
+void display_menu();
+char read_selection(char);
+void display_all_element(vector<int> &numbers);
 
 using namespace std;
 
@@ -103,25 +108,12 @@ int main() {
     
     do {
         // Display menu
-        cout << "\nP - Print numbers" << endl;
-        cout << "A - Add a number" << endl;
-        cout << "M - Display mean of the numbers" << endl;
-        cout << "S - Display the smallest number" << endl;
-        cout << "L - Display the largest number"<< endl;
-        cout << "Q - Quit" << endl;
-        cout << "\nEnter your choice: ";
+        display_menu();
         cin >> selection;
-
+        selection = read_selection(selection);
         
-        if (selection == 'P' || selection == 'p') {
-            if (numbers.size() == 0)
-                cout << "[] - the list is empty" << endl;
-            else {
-                cout << "[ ";
-                for (auto num: numbers)
-                    cout << num << " ";
-                cout << "]" << endl;
-            }
+        if (selection == 'P') {
+          display_all_element(number);
         } else if (selection == 'A' || selection == 'a') {
             int num_to_add {};
             cout << "Enter an integer to add to the list: ";
@@ -168,3 +160,27 @@ int main() {
     return 0;
 }
 
+void display_menu(){
+        cout << "\nP - Print numbers" << endl;
+        cout << "A - Add a number" << endl;
+        cout << "M - Display mean of the numbers" << endl;
+        cout << "S - Display the smallest number" << endl;
+        cout << "L - Display the largest number"<< endl;
+        cout << "Q - Quit" << endl;
+        cout << "\nEnter your choice: ";
+}
+
+char read_selection(char selection){
+    return toupper(selection);
+}
+
+void display_all_element(vector<int> &numbers){
+        if (numbers.size() == 0)
+            cout << "[] - the list is empty" << endl;
+        else {
+            cout << "[ ";
+            for (auto num: numbers)
+                cout << num << " ";
+            cout << "]" << endl;
+            }
+}

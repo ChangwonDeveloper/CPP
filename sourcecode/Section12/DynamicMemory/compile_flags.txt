@@ -1,0 +1,3 @@
+-IC:\Users\offic\Desktop\Programming\Udemy\CPP\sourcecode\Section12\DynamicMemory
+-target
+i686-pc-windows-gnu

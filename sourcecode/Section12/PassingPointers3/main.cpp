@@ -16,7 +16,7 @@ void display( const vector<string> *const  v) {
  //   v = nullptr;
 }
 
-void display(int *array, int sentinel) {
+void display(const int *array, int sentinel) {
     while (*array != sentinel)
         cout << *array++ << " ";
     cout << endl;
@@ -24,9 +24,9 @@ void display(int *array, int sentinel) {
 
 int main() {
 
-//    cout << "-----------------------------" << endl;
-//    vector<string> stooges {"Larry", "Moe", "Curly"};
-//    display(&stooges);
+    cout << "-----------------------------" << endl;
+    vector<string> stooges {"Larry", "Moe", "Curly"};
+    display(&stooges);
    
     cout << "\n-----------------------------" << endl;
     int scores[] {100,98,97,79,85,-1};
