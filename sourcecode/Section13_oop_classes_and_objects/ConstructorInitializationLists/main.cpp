@@ -18,6 +18,7 @@ public:
     Player(std::string name_val, int health_val, int xp_val);
 };
 
+// assigning and initialiing are different
 Player::Player() 
     : name{"None"}, health{0}, xp{0} {
 }

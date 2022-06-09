@@ -33,7 +33,7 @@ public:
 
 int main() {
 
-        // after {}, deconstructor called
+        // after {}, deconstructor called automatically 
     {
         Player slayer;
         slayer.set_name("Slayer");

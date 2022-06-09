@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CodeLite_Workspace Name="PersonalProject" Database="" Version="10000">
-  <Project Name="OOP_Practice" Path="OOP_Practice/OOP_Practice.project" Active="Yes"/>
+  <Project Name="OOP_Practice" Path="OOP_Practice/OOP_Practice.project" Active="No"/>
   <Project Name="Baseball_Game" Path="Baseball_Game/Baseball_Game.project" Active="No"/>
   <Project Name="Pointer" Path="Pointer/Pointer.project" Active="No"/>
   <Project Name="For_loop" Path="For_loop/For_loop.project" Active="No"/>
   <Project Name="Functions" Path="Functions/Functions.project" Active="No"/>
+  <Project Name="Constructors" Path="Constructors/Constructors.project" Active="Yes"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug" Selected="yes">
       <Environment/>
@@ -13,6 +14,7 @@
       <Project Name="Pointer" ConfigName="Debug"/>
       <Project Name="For_loop" ConfigName="Debug"/>
       <Project Name="Functions" ConfigName="Debug"/>
+      <Project Name="Constructors" ConfigName="Debug"/>
     </WorkspaceConfiguration>
     <WorkspaceConfiguration Name="Release" Selected="yes">
       <Environment/>
@@ -21,6 +23,7 @@
       <Project Name="Pointer" ConfigName="Release"/>
       <Project Name="For_loop" ConfigName="Release"/>
       <Project Name="Functions" ConfigName="Release"/>
+      <Project Name="Constructors" ConfigName="Release"/>
     </WorkspaceConfiguration>
   </BuildMatrix>
 </CodeLite_Workspace>

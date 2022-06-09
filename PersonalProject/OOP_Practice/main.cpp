@@ -20,6 +20,15 @@ int main(){
     changwon.sayname("Chris");
     changwon.set_wealth(50000);
     changwon.show_wealth();
+    Human Chris;
+    Human Jason(100000);
+    Human Sam(1200, "Sam");
+    cout << "===========================" << endl;
+    // garbage value.
+    Sam.show_wealth();
+    cout << Sam.first_name << endl;
+    
+    
     return 0;
     
 }

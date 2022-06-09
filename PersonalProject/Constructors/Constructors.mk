@@ -3,11 +3,11 @@
 ## any manual changes will be erased      
 ##
 ## Debug
-ProjectName            :=ConstructorsAndDestructors
+ProjectName            :=Constructors
 ConfigurationName      :=Debug
-WorkspacePath          :=C:/Users/offic/Desktop/Programming/Udemy/CPP/sourcecode/Section13_oop_classes_and_objects
-ProjectPath            :=C:/Users/offic/Desktop/Programming/Udemy/CPP/sourcecode/Section13_oop_classes_and_objects/ConstructorsAndDestructors
-IntermediateDirectory  :=./Debug
+WorkspacePath          :=C:/Users/offic/Desktop/Programming/Udemy/CPP/PersonalProject
+ProjectPath            :=C:/Users/offic/Desktop/Programming/Udemy/CPP/PersonalProject/Constructors
+IntermediateDirectory  :=$(ConfigurationName)
 OutDir                 := $(IntermediateDirectory)
 CurrentFileName        :=
 CurrentFilePath        :=
@@ -32,12 +32,12 @@ Preprocessors          :=
 ObjectSwitch           :=-o 
 ArchiveOutputSwitch    := 
 PreprocessOnlySwitch   :=-E
-ObjectsFileList        :="ConstructorsAndDestructors.txt"
+ObjectsFileList        :="Constructors.txt"
 PCHCompileFlags        :=
 MakeDirCommand         :=makedir
 RcCmpOptions           := 
 RcCompilerName         :="C:/mingw64/bin/windres.exe"
-LinkOptions            :=  
+LinkOptions            :=  -static
 IncludePath            :=  $(IncludeSwitch). $(IncludeSwitch). 
 IncludePCH             := 
 RcIncludePath          := 
@@ -52,7 +52,7 @@ LibPath                := $(LibraryPathSwitch).
 AR       := "C:/mingw64/bin/ar.exe" rcu
 CXX      := "C:/mingw64/bin/g++.exe"
 CC       := "C:/mingw64/bin/gcc.exe"
-CXXFLAGS := -std=c++14 -Wall -g -O0 -std=c++14 -Wall $(Preprocessors)
+CXXFLAGS :=  -g -O0 -std=c++17 -Wall $(Preprocessors)
 CFLAGS   :=  -g -O0 -Wall $(Preprocessors)
 ASFLAGS  := 
 AS       := "C:/mingw64/bin/as.exe"
@@ -81,11 +81,11 @@ $(OutputFile): $(IntermediateDirectory)/.d $(Objects)
 	$(LinkerName) $(OutputSwitch)$(OutputFile) @$(ObjectsFileList) $(LibPath) $(Libs) $(LinkOptions)
 
 MakeIntermediateDirs:
-	@$(MakeDirCommand) "./Debug"
+	@$(MakeDirCommand) "$(ConfigurationName)"
 
 
 $(IntermediateDirectory)/.d:
-	@$(MakeDirCommand) "./Debug"
+	@$(MakeDirCommand) "$(ConfigurationName)"
 
 PreBuild:
 
@@ -95,7 +95,7 @@ PreBuild:
 ##
 $(IntermediateDirectory)/main.cpp$(ObjectSuffix): main.cpp
 	@$(CXX) $(CXXFLAGS) $(IncludePCH) $(IncludePath) -MG -MP -MT$(IntermediateDirectory)/main.cpp$(ObjectSuffix) -MF$(IntermediateDirectory)/main.cpp$(DependSuffix) -MM main.cpp
-	$(CXX) $(IncludePCH) $(SourceSwitch) "C:/Users/offic/Desktop/Programming/Udemy/CPP/sourcecode/Section13_oop_classes_and_objects/ConstructorsAndDestructors/main.cpp" $(CXXFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/main.cpp$(ObjectSuffix) $(IncludePath)
+	$(CXX) $(IncludePCH) $(SourceSwitch) "C:/Users/offic/Desktop/Programming/Udemy/CPP/PersonalProject/Constructors/main.cpp" $(CXXFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/main.cpp$(ObjectSuffix) $(IncludePath)
 $(IntermediateDirectory)/main.cpp$(PreprocessSuffix): main.cpp
 	$(CXX) $(CXXFLAGS) $(IncludePCH) $(IncludePath) $(PreprocessOnlySwitch) $(OutputSwitch) $(IntermediateDirectory)/main.cpp$(PreprocessSuffix) main.cpp
 
@@ -105,6 +105,6 @@ $(IntermediateDirectory)/main.cpp$(PreprocessSuffix): main.cpp
 ## Clean
 ##
 clean:
-	$(RM) -r ./Debug/
+	$(RM) -r $(ConfigurationName)/
 
 
