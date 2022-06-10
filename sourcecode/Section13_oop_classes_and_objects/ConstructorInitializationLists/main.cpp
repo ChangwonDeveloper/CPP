@@ -19,6 +19,7 @@ public:
 };
 
 // assigning and initialiing are different
+// if you want to used outside of the class, must need prototype within the class
 Player::Player() 
     : name{"None"}, health{0}, xp{0} {
 }
@@ -29,7 +30,6 @@ Player::Player(std::string name_val)
   
 Player::Player(std::string name_val, int health_val, int xp_val) 
     : name{name_val}, health{health_val}, xp{xp_val} {
-    
 }
 
 int main() {

@@ -19,13 +19,14 @@ public:
     int get_wealth();
     void show_wealth();
     // if there is no matching constrtuctor, compiler error
-//    Human(){
-//        std::cout << first_name << " is created" << std::endl;
-//    }
-//    Human(int wealth){
-//        std::cout << first_name << " is created with " << wealth << std::endl;
-//    }
+    Human(){
+        std::cout << first_name << " is created" << std::endl;
+    }
+    Human(int wealth){
+        std::cout << first_name << " is created with " << wealth << std::endl;
+    }
     // constructos parameter name and class attributes name can be different
+    // and the order of parameter must be the same.
     Human(int wealth, std::string f){
         std::cout << first_name << " is created with " << wealth << " " << f << std::endl;
     }

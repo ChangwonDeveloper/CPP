@@ -1,1 +1,1 @@
-Debug/Human.cpp.o Debug/main.cpp.o
+Debug/main.cpp.o Debug/Human.cpp.o

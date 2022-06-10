@@ -25,8 +25,9 @@ Shallow::Shallow(int d) {
 }
 
 Shallow::Shallow(const Shallow &source) 
-    : data(source.data) {
+    : data{source.data} {
         cout << "Copy constructor  - shallow copy" << endl;
+        cout << data << endl;
 }
 
 Shallow::~Shallow() {

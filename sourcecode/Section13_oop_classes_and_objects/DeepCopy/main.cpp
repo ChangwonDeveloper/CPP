@@ -21,6 +21,7 @@ public:
 Deep::Deep(int d) {
     data = new int;
     *data = d;
+    cout << "constructor is operated" << endl;
 }
 
 Deep::Deep(const Deep &source)
@@ -40,11 +41,16 @@ void display_deep(Deep s) {
 int main() {
     
     Deep obj1 {100};
-    display_deep(obj1);
+    cout << "======================" << endl;
+//    display_deep(obj1);
+    cout << "======================" << endl;
     
     Deep obj2 {obj1};
+    cout << "======================" << endl;
     
     obj2.set_data_value(1000);
+    obj2.get_data_value();
+    cout << "======================" << endl;
   
     return 0;
 }

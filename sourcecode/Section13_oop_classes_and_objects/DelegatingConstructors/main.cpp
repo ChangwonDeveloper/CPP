@@ -19,6 +19,7 @@ public:
 };
 
 Player::Player() 
+    // delegating constructor
     : Player {"None",0,0} {
         cout << "No-args constructor" << endl;
 }
@@ -27,7 +28,8 @@ Player::Player(std::string name_val)
    : Player {name_val,0, 0}  {
            cout << "One-arg constructor" << endl;
 }
-  
+
+// this is delegated constructor
 Player::Player(std::string name_val, int health_val, int xp_val) 
     : name{name_val}, health{health_val}, xp{xp_val} {
             cout << "Three-args constructor" << endl;

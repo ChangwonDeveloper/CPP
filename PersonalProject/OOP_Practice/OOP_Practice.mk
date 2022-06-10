@@ -13,7 +13,7 @@ CurrentFileName        :=
 CurrentFilePath        :=
 CurrentFileFullPath    :=
 User                   :=offic
-Date                   :=09/06/2022
+Date                   :=10/06/2022
 CodeLitePath           :="C:/Program Files/CodeLite"
 LinkerName             :="C:/mingw64/bin/g++.exe"
 SharedObjectLinkerName :="C:/mingw64/bin/g++.exe" -shared -fPIC
@@ -62,7 +62,7 @@ AS       := "C:/mingw64/bin/as.exe"
 ## User defined environment variables
 ##
 CodeLiteDir:=C:\Program Files\CodeLite
-Objects0=$(IntermediateDirectory)/Human.cpp$(ObjectSuffix) $(IntermediateDirectory)/main.cpp$(ObjectSuffix) 
+Objects0=$(IntermediateDirectory)/main.cpp$(ObjectSuffix) $(IntermediateDirectory)/Human.cpp$(ObjectSuffix) 
 
 
 
@@ -93,17 +93,17 @@ PreBuild:
 ##
 ## Objects
 ##
-$(IntermediateDirectory)/Human.cpp$(ObjectSuffix): Human.cpp
-	@$(CXX) $(CXXFLAGS) $(IncludePCH) $(IncludePath) -MG -MP -MT$(IntermediateDirectory)/Human.cpp$(ObjectSuffix) -MF$(IntermediateDirectory)/Human.cpp$(DependSuffix) -MM Human.cpp
-	$(CXX) $(IncludePCH) $(SourceSwitch) "C:/Users/offic/Desktop/Programming/Udemy/CPP/PersonalProject/OOP_Practice/Human.cpp" $(CXXFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/Human.cpp$(ObjectSuffix) $(IncludePath)
-$(IntermediateDirectory)/Human.cpp$(PreprocessSuffix): Human.cpp
-	$(CXX) $(CXXFLAGS) $(IncludePCH) $(IncludePath) $(PreprocessOnlySwitch) $(OutputSwitch) $(IntermediateDirectory)/Human.cpp$(PreprocessSuffix) Human.cpp
-
 $(IntermediateDirectory)/main.cpp$(ObjectSuffix): main.cpp
 	@$(CXX) $(CXXFLAGS) $(IncludePCH) $(IncludePath) -MG -MP -MT$(IntermediateDirectory)/main.cpp$(ObjectSuffix) -MF$(IntermediateDirectory)/main.cpp$(DependSuffix) -MM main.cpp
 	$(CXX) $(IncludePCH) $(SourceSwitch) "C:/Users/offic/Desktop/Programming/Udemy/CPP/PersonalProject/OOP_Practice/main.cpp" $(CXXFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/main.cpp$(ObjectSuffix) $(IncludePath)
 $(IntermediateDirectory)/main.cpp$(PreprocessSuffix): main.cpp
 	$(CXX) $(CXXFLAGS) $(IncludePCH) $(IncludePath) $(PreprocessOnlySwitch) $(OutputSwitch) $(IntermediateDirectory)/main.cpp$(PreprocessSuffix) main.cpp
+
+$(IntermediateDirectory)/Human.cpp$(ObjectSuffix): Human.cpp
+	@$(CXX) $(CXXFLAGS) $(IncludePCH) $(IncludePath) -MG -MP -MT$(IntermediateDirectory)/Human.cpp$(ObjectSuffix) -MF$(IntermediateDirectory)/Human.cpp$(DependSuffix) -MM Human.cpp
+	$(CXX) $(IncludePCH) $(SourceSwitch) "C:/Users/offic/Desktop/Programming/Udemy/CPP/PersonalProject/OOP_Practice/Human.cpp" $(CXXFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/Human.cpp$(ObjectSuffix) $(IncludePath)
+$(IntermediateDirectory)/Human.cpp$(PreprocessSuffix): Human.cpp
+	$(CXX) $(CXXFLAGS) $(IncludePCH) $(IncludePath) $(PreprocessOnlySwitch) $(OutputSwitch) $(IntermediateDirectory)/Human.cpp$(PreprocessSuffix) Human.cpp
 
 
 -include $(IntermediateDirectory)/*$(DependSuffix)

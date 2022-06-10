@@ -9,10 +9,10 @@
   <Project Name="DefaultConstructor" Path="DefaultConstructor/DefaultConstructor.project" Active="No"/>
   <Project Name="ConstructorInitializationLists" Path="ConstructorInitializationLists/ConstructorInitializationLists.project" Active="No"/>
   <Project Name="DelegatingConstructors" Path="DelegatingConstructors/DelegatingConstructors.project" Active="No"/>
-  <Project Name="DefaultConstructorParameters" Path="DefaultConstructorParameters/DefaultConstructorParameters.project" Active="Yes"/>
+  <Project Name="DefaultConstructorParameters" Path="DefaultConstructorParameters/DefaultConstructorParameters.project" Active="No"/>
   <Project Name="CopyConstructor" Path="CopyConstructor/CopyConstructor.project" Active="No"/>
   <Project Name="ShallowCopy" Path="DeepCopy/DeepCopy.project" Active="No"/>
-  <Project Name="DeepCopy" Path="DeepCopy/DeepCopy.project" Active="No"/>
+  <Project Name="DeepCopy" Path="DeepCopy/DeepCopy.project" Active="Yes"/>
   <Project Name="ShallowCopy" Path="ShallowCopy/ShallowCopy.project" Active="No"/>
   <Project Name="MoveConstructor" Path="MoveConstructor/MoveConstructor.project" Active="No"/>
   <Project Name="StaticClassMembers" Path="StaticClassMembers/StaticClassMembers.project" Active="No"/>
