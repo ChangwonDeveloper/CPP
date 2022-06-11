@@ -28,12 +28,13 @@ Deep::Deep(const Deep &source)
     : Deep {*source.data} {
     cout << "Copy constructor  - deep copy" << endl;
 }
-
+// deconstrucot is called when the object is out of local scope
 Deep::~Deep() {
     delete data;
     cout << "Destructor freeing data" << endl;
 }
 
+// destructor is called when program is out of the function
 void display_deep(Deep s) {
     cout << s.get_data_value() << endl;
 }
@@ -42,15 +43,15 @@ int main() {
     
     Deep obj1 {100};
     cout << "======================" << endl;
-//    display_deep(obj1);
+    display_deep(obj1);
     cout << "======================" << endl;
     
     Deep obj2 {obj1};
     cout << "======================" << endl;
     
     obj2.set_data_value(1000);
-    obj2.get_data_value();
     cout << "======================" << endl;
+    cout << obj2.get_data_value() << endl;
   
     return 0;
 }

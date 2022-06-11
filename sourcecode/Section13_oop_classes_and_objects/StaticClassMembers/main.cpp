@@ -24,8 +24,14 @@ int main() {
     display_active_players();
     delete enemy;
     display_active_players();    
-
-
+    
+    // if we dynamically allocate memory for an object, it does not destructed even though it is out of scope because the pointer survive.
+    {
+    Player *enemy = new Player("Enemy", 100, 100);
+    }
+    display_active_players();    
+    delete enemy;
+    display_active_players();    
 
     return 0;
 }

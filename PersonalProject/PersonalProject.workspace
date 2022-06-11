@@ -5,7 +5,10 @@
   <Project Name="Pointer" Path="Pointer/Pointer.project" Active="No"/>
   <Project Name="For_loop" Path="For_loop/For_loop.project" Active="No"/>
   <Project Name="Functions" Path="Functions/Functions.project" Active="No"/>
-  <Project Name="Constructors" Path="Constructors/Constructors.project" Active="Yes"/>
+  <Project Name="Constructors" Path="Constructors/Constructors.project" Active="No"/>
+  <Project Name="DeepCopy" Path="DeepCopy/DeepCopy.project" Active="No"/>
+  <Project Name="MoveConstructor" Path="MoveConstructor/MoveConstructor.project" Active="No"/>
+  <Project Name="StaticMember" Path="StaticMember/StaticMember.project" Active="Yes"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug" Selected="yes">
       <Environment/>
@@ -15,6 +18,9 @@
       <Project Name="For_loop" ConfigName="Debug"/>
       <Project Name="Functions" ConfigName="Debug"/>
       <Project Name="Constructors" ConfigName="Debug"/>
+      <Project Name="DeepCopy" ConfigName="Debug"/>
+      <Project Name="MoveConstructor" ConfigName="Debug"/>
+      <Project Name="StaticMember" ConfigName="Debug"/>
     </WorkspaceConfiguration>
     <WorkspaceConfiguration Name="Release" Selected="yes">
       <Environment/>
@@ -24,6 +30,9 @@
       <Project Name="For_loop" ConfigName="Release"/>
       <Project Name="Functions" ConfigName="Release"/>
       <Project Name="Constructors" ConfigName="Release"/>
+      <Project Name="DeepCopy" ConfigName="Release"/>
+      <Project Name="MoveConstructor" ConfigName="Release"/>
+      <Project Name="StaticMember" ConfigName="Release"/>
     </WorkspaceConfiguration>
   </BuildMatrix>
 </CodeLite_Workspace>
