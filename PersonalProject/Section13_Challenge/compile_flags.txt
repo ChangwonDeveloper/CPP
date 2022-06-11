@@ -1,0 +1,3 @@
+-IC:\Users\offic\Desktop\Programming\Udemy\CPP\PersonalProject\Section13_Challenge
+-target
+i686-pc-windows-gnu

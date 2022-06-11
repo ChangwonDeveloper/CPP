@@ -8,7 +8,9 @@
   <Project Name="Constructors" Path="Constructors/Constructors.project" Active="No"/>
   <Project Name="DeepCopy" Path="DeepCopy/DeepCopy.project" Active="No"/>
   <Project Name="MoveConstructor" Path="MoveConstructor/MoveConstructor.project" Active="No"/>
-  <Project Name="StaticMember" Path="StaticMember/StaticMember.project" Active="Yes"/>
+  <Project Name="StaticMember" Path="StaticMember/StaticMember.project" Active="No"/>
+  <Project Name="StaticMember2" Path="StaticMember2/StaticMember2.project" Active="No"/>
+  <Project Name="Section13_Challenge" Path="Section13_Challenge/Section13_Challenge.project" Active="Yes"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug" Selected="yes">
       <Environment/>
@@ -21,6 +23,8 @@
       <Project Name="DeepCopy" ConfigName="Debug"/>
       <Project Name="MoveConstructor" ConfigName="Debug"/>
       <Project Name="StaticMember" ConfigName="Debug"/>
+      <Project Name="StaticMember2" ConfigName="Debug"/>
+      <Project Name="Section13_Challenge" ConfigName="Debug"/>
     </WorkspaceConfiguration>
     <WorkspaceConfiguration Name="Release" Selected="yes">
       <Environment/>
@@ -33,6 +37,8 @@
       <Project Name="DeepCopy" ConfigName="Release"/>
       <Project Name="MoveConstructor" ConfigName="Release"/>
       <Project Name="StaticMember" ConfigName="Release"/>
+      <Project Name="StaticMember2" ConfigName="Release"/>
+      <Project Name="Section13_Challenge" ConfigName="Release"/>
     </WorkspaceConfiguration>
   </BuildMatrix>
 </CodeLite_Workspace>

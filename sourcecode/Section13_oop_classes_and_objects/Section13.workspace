@@ -15,11 +15,11 @@
   <Project Name="DeepCopy" Path="DeepCopy/DeepCopy.project" Active="No"/>
   <Project Name="ShallowCopy" Path="ShallowCopy/ShallowCopy.project" Active="No"/>
   <Project Name="MoveConstructor" Path="MoveConstructor/MoveConstructor.project" Active="No"/>
-  <Project Name="StaticClassMembers" Path="StaticClassMembers/StaticClassMembers.project" Active="Yes"/>
+  <Project Name="StaticClassMembers" Path="StaticClassMembers/StaticClassMembers.project" Active="No"/>
   <Project Name="Friends" Path="Friends/Friends.project" Active="No"/>
   <Project Name="ConstInClasses" Path="ConstInClasses/ConstInClasses.project" Active="No"/>
   <Project Name="Challenge" Path="Challenge/Challenge.project" Active="No"/>
-  <Project Name="ChallengeSolution" Path="ChallengeSolution/ChallengeSolution.project" Active="No"/>
+  <Project Name="ChallengeSolution" Path="ChallengeSolution/ChallengeSolution.project" Active="Yes"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug" Selected="yes">
       <Environment/>
