@@ -1,32 +1,151 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Session Name="C:\Users\frank\Desktop\CPPExamples\Section14\Section14.workspace">
-  <int Value="2" Name="m_selectedTab"/>
-  <wxString Value="C:\Users\frank\Desktop\CPPExamples\Section14\Section14.workspace" Name="m_workspaceName"/>
+<Session Name="C:\Users\offic\Desktop\Programming\Udemy\CPP\sourcecode\Section14_operator_overloading\Section14.workspace">
+  <int Value="19" Name="m_selectedTab"/>
+  <wxString Value="C:\Users\offic\Desktop\Programming\Udemy\CPP\sourcecode\Section14_operator_overloading\Section14.workspace" Name="m_workspaceName"/>
   <TabInfoArray Name="TabInfoArray">
     <TabInfo>
-      <wxString Value="C:\Users\frank\Desktop\CPPExamples\Section14\Challenge-Solution2\Mystring.h" Name="FileName"/>
+      <wxString Value="C:\Users\offic\Desktop\Programming\Udemy\CPP\sourcecode\Section14_operator_overloading\Mystring-start\main.cpp" Name="FileName"/>
       <int Value="0" Name="FirstVisibleLine"/>
-      <int Value="6" Name="CurrentLine"/>
+      <int Value="13" Name="CurrentLine"/>
       <wxArrayString Name="Bookmarks"/>
       <IntVector Name="CollapsedFolds"/>
     </TabInfo>
     <TabInfo>
-      <wxString Value="C:\Users\frank\Desktop\CPPExamples\Section14\Challenge-Solution2\Mystring.cpp" Name="FileName"/>
-      <int Value="147" Name="FirstVisibleLine"/>
-      <int Value="155" Name="CurrentLine"/>
+      <wxString Value="C:\Users\offic\Desktop\Programming\Udemy\CPP\sourcecode\Section14_operator_overloading\Mystring-start\Mystring.cpp" Name="FileName"/>
+      <int Value="6" Name="FirstVisibleLine"/>
+      <int Value="30" Name="CurrentLine"/>
       <wxArrayString Name="Bookmarks"/>
       <IntVector Name="CollapsedFolds"/>
     </TabInfo>
     <TabInfo>
-      <wxString Value="C:\Users\frank\Desktop\CPPExamples\Section14\Challenge-Solution2\main.cpp" Name="FileName"/>
-      <int Value="12" Name="FirstVisibleLine"/>
-      <int Value="12" Name="CurrentLine"/>
+      <wxString Value="C:\Users\offic\Desktop\Programming\Udemy\CPP\sourcecode\Section14_operator_overloading\Mystring-start\Mystring.h" Name="FileName"/>
+      <int Value="0" Name="FirstVisibleLine"/>
+      <int Value="19" Name="CurrentLine"/>
+      <wxArrayString Name="Bookmarks"/>
+      <IntVector Name="CollapsedFolds"/>
+    </TabInfo>
+    <TabInfo>
+      <wxString Value="C:\Users\offic\Desktop\Programming\Udemy\CPP\sourcecode\Section14_operator_overloading\Mystring-copy-assignment\main.cpp" Name="FileName"/>
+      <int Value="0" Name="FirstVisibleLine"/>
+      <int Value="15" Name="CurrentLine"/>
+      <wxArrayString Name="Bookmarks"/>
+      <IntVector Name="CollapsedFolds"/>
+    </TabInfo>
+    <TabInfo>
+      <wxString Value="C:\Users\offic\Desktop\Programming\Udemy\CPP\sourcecode\Section14_operator_overloading\Mystring-copy-assignment\Mystring.h" Name="FileName"/>
+      <int Value="0" Name="FirstVisibleLine"/>
+      <int Value="22" Name="CurrentLine"/>
+      <wxArrayString Name="Bookmarks"/>
+      <IntVector Name="CollapsedFolds"/>
+    </TabInfo>
+    <TabInfo>
+      <wxString Value="C:\Users\offic\Desktop\Programming\Udemy\CPP\sourcecode\Section14_operator_overloading\Mystring-copy-assignment\Mystring.cpp" Name="FileName"/>
+      <int Value="21" Name="FirstVisibleLine"/>
+      <int Value="35" Name="CurrentLine"/>
+      <wxArrayString Name="Bookmarks"/>
+      <IntVector Name="CollapsedFolds"/>
+    </TabInfo>
+    <TabInfo>
+      <wxString Value="C:\Users\offic\Desktop\Programming\Udemy\CPP\sourcecode\Section14_operator_overloading\Mystring-operators\main.cpp" Name="FileName"/>
+      <int Value="0" Name="FirstVisibleLine"/>
+      <int Value="2" Name="CurrentLine"/>
+      <wxArrayString Name="Bookmarks"/>
+      <IntVector Name="CollapsedFolds"/>
+    </TabInfo>
+    <TabInfo>
+      <wxString Value="C:\Users\offic\Desktop\Programming\Udemy\CPP\sourcecode\Section14_operator_overloading\Mystring-operators\Mystring.cpp" Name="FileName"/>
+      <int Value="42" Name="FirstVisibleLine"/>
+      <int Value="0" Name="CurrentLine"/>
+      <wxArrayString Name="Bookmarks"/>
+      <IntVector Name="CollapsedFolds"/>
+    </TabInfo>
+    <TabInfo>
+      <wxString Value="C:\Users\offic\Desktop\Programming\Udemy\CPP\sourcecode\Section14_operator_overloading\Mystring-operators\Mystring.h" Name="FileName"/>
+      <int Value="0" Name="FirstVisibleLine"/>
+      <int Value="15" Name="CurrentLine"/>
+      <wxArrayString Name="Bookmarks"/>
+      <IntVector Name="CollapsedFolds"/>
+    </TabInfo>
+    <TabInfo>
+      <wxString Value="C:\Users\offic\Desktop\Programming\Udemy\CPP\sourcecode\Section14_operator_overloading\Mystring-operator-functions\main.cpp" Name="FileName"/>
+      <int Value="0" Name="FirstVisibleLine"/>
+      <int Value="2" Name="CurrentLine"/>
+      <wxArrayString Name="Bookmarks"/>
+      <IntVector Name="CollapsedFolds"/>
+    </TabInfo>
+    <TabInfo>
+      <wxString Value="C:\Users\offic\Desktop\Programming\Udemy\CPP\sourcecode\Section14_operator_overloading\Mystring-operator-functions\Mystring.cpp" Name="FileName"/>
+      <int Value="42" Name="FirstVisibleLine"/>
+      <int Value="58" Name="CurrentLine"/>
+      <wxArrayString Name="Bookmarks"/>
+      <IntVector Name="CollapsedFolds"/>
+    </TabInfo>
+    <TabInfo>
+      <wxString Value="C:\Users\offic\Desktop\Programming\Udemy\CPP\sourcecode\Section14_operator_overloading\Mystring-operator-functions\Mystring.h" Name="FileName"/>
+      <int Value="0" Name="FirstVisibleLine"/>
+      <int Value="14" Name="CurrentLine"/>
+      <wxArrayString Name="Bookmarks"/>
+      <IntVector Name="CollapsedFolds"/>
+    </TabInfo>
+    <TabInfo>
+      <wxString Value="C:\Users\offic\Desktop\Programming\Udemy\CPP\sourcecode\Section14_operator_overloading\Mystring-insertion-extraction\Mystring.cpp" Name="FileName"/>
+      <int Value="66" Name="FirstVisibleLine"/>
+      <int Value="0" Name="CurrentLine"/>
+      <wxArrayString Name="Bookmarks"/>
+      <IntVector Name="CollapsedFolds"/>
+    </TabInfo>
+    <TabInfo>
+      <wxString Value="C:\Users\offic\Desktop\Programming\Udemy\CPP\sourcecode\Section14_operator_overloading\Mystring-insertion-extraction\Mystring.h" Name="FileName"/>
+      <int Value="0" Name="FirstVisibleLine"/>
+      <int Value="10" Name="CurrentLine"/>
+      <wxArrayString Name="Bookmarks"/>
+      <IntVector Name="CollapsedFolds"/>
+    </TabInfo>
+    <TabInfo>
+      <wxString Value="C:\Users\offic\Desktop\Programming\Udemy\CPP\sourcecode\Section14_operator_overloading\Mystring-insertion-extraction\main.cpp" Name="FileName"/>
+      <int Value="0" Name="FirstVisibleLine"/>
+      <int Value="2" Name="CurrentLine"/>
+      <wxArrayString Name="Bookmarks"/>
+      <IntVector Name="CollapsedFolds"/>
+    </TabInfo>
+    <TabInfo>
+      <wxString Value="C:\Users\offic\Desktop\Programming\Udemy\CPP\sourcecode\Section14_operator_overloading\Challenge\Description.txt" Name="FileName"/>
+      <int Value="0" Name="FirstVisibleLine"/>
+      <int Value="40" Name="CurrentLine"/>
+      <wxArrayString Name="Bookmarks"/>
+      <IntVector Name="CollapsedFolds"/>
+    </TabInfo>
+    <TabInfo>
+      <wxString Value="C:\Users\offic\Desktop\Programming\Udemy\CPP\sourcecode\Section14_operator_overloading\Challenge\Mystring.cpp" Name="FileName"/>
+      <int Value="124" Name="FirstVisibleLine"/>
+      <int Value="137" Name="CurrentLine"/>
+      <wxArrayString Name="Bookmarks"/>
+      <IntVector Name="CollapsedFolds"/>
+    </TabInfo>
+    <TabInfo>
+      <wxString Value="C:\Users\offic\Desktop\Programming\Udemy\CPP\sourcecode\Section14_operator_overloading\Challenge\Mystring.h" Name="FileName"/>
+      <int Value="0" Name="FirstVisibleLine"/>
+      <int Value="11" Name="CurrentLine"/>
+      <wxArrayString Name="Bookmarks"/>
+      <IntVector Name="CollapsedFolds"/>
+    </TabInfo>
+    <TabInfo>
+      <wxString Value="C:\Users\offic\Desktop\Programming\Udemy\CPP\sourcecode\Section14_operator_overloading\Challenge\main.cpp" Name="FileName"/>
+      <int Value="0" Name="FirstVisibleLine"/>
+      <int Value="49" Name="CurrentLine"/>
+      <wxArrayString Name="Bookmarks"/>
+      <IntVector Name="CollapsedFolds"/>
+    </TabInfo>
+    <TabInfo>
+      <wxString Value="C:\Users\offic\Desktop\Programming\Udemy\CPP\sourcecode\Section14_operator_overloading\Challenge-Solution2\Mystring.h" Name="FileName"/>
+      <int Value="0" Name="FirstVisibleLine"/>
+      <int Value="25" Name="CurrentLine"/>
       <wxArrayString Name="Bookmarks"/>
       <IntVector Name="CollapsedFolds"/>
     </TabInfo>
   </TabInfoArray>
   <SerializedObject Name="m_breakpoints">
-    <long Value="2" Name="Count"/>
+    <long Value="4" Name="Count"/>
     <SerializedObject Name="Breakpoint0">
       <wxString Value="C:\Users\frank\Desktop\CPPExamples\Section14\Mystring-copy-assignment\main.cpp" Name="file"/>
       <int Value="10" Name="lineno"/>
@@ -59,5 +178,38 @@
       <wxString Value="" Name="conditions"/>
       <int Value="0" Name="origin"/>
     </SerializedObject>
+    <SerializedObject Name="Breakpoint2">
+      <wxString Value="C:\Users\offic\Desktop\Programming\Udemy\CPP\sourcecode\Section14_operator_overloading\Challenge\main.cpp" Name="file"/>
+      <int Value="26" Name="lineno"/>
+      <wxString Value="" Name="function_name"/>
+      <wxString Value="" Name="memory_address"/>
+      <int Value="1" Name="bp_type"/>
+      <int Value="0" Name="watchpoint_type"/>
+      <wxString Value="" Name="watchpt_data"/>
+      <CData Name="commandlist"/>
+      <bool Value="0" Name="regex"/>
+      <bool Value="0" Name="is_temp"/>
+      <bool Value="1" Name="is_enabled"/>
+      <int Value="0" Name="ignore_number"/>
+      <wxString Value="" Name="conditions"/>
+      <int Value="0" Name="origin"/>
+    </SerializedObject>
+    <SerializedObject Name="Breakpoint3">
+      <wxString Value="C:\Users\offic\Desktop\Programming\Udemy\CPP\sourcecode\Section14_operator_overloading\Mystring-start\Mystring.cpp" Name="file"/>
+      <int Value="13" Name="lineno"/>
+      <wxString Value="" Name="function_name"/>
+      <wxString Value="" Name="memory_address"/>
+      <int Value="1" Name="bp_type"/>
+      <int Value="0" Name="watchpoint_type"/>
+      <wxString Value="" Name="watchpt_data"/>
+      <CData Name="commandlist"/>
+      <bool Value="0" Name="regex"/>
+      <bool Value="0" Name="is_temp"/>
+      <bool Value="1" Name="is_enabled"/>
+      <int Value="0" Name="ignore_number"/>
+      <wxString Value="" Name="conditions"/>
+      <int Value="0" Name="origin"/>
+    </SerializedObject>
   </SerializedObject>
+  <wxString Value="*.c;*.cpp;*.cxx;*.cc;*.h;*.hpp;*.inc;*.mm;*.m;*.xrc;*.xml;*.json;*.sql;*.txt;*.plist;CMakeLists.txt;*.rc;*.iss" Name="m_findInFilesMask"/>
 </Session>

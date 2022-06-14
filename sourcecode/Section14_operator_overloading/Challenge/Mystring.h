@@ -5,6 +5,15 @@ class Mystring
 {
     friend std::ostream &operator<<(std::ostream &os, const Mystring &rhs);
     friend std::istream &operator>>(std::istream &in, Mystring &rhs);
+    friend bool operator==(const Mystring &lhs, const Mystring &rhs); // == operator overloading
+    friend bool operator!=(const Mystring &lhs, const Mystring &rhs); // overloading != opeator
+    friend bool operator<(const Mystring &lhs, const Mystring &rhs); // overloading != opeator
+    friend bool operator>(const Mystring &lhs, const Mystring &rhs); // overloading != opeator
+    friend Mystring operator-(const Mystring &rhs);
+    friend Mystring operator+(const Mystring &lhs, const Mystring &rhs);
+    friend Mystring operator+=(Mystring &lhs, const Mystring &rhs);
+    friend Mystring operator*(Mystring &lhs, int t);
+    friend Mystring operator*=(Mystring &lhs, int t);
 
 private:
     char *str;      // pointer to a char[] that holds a C-style string

@@ -28,6 +28,10 @@ public:
      //   c = 300;    // not accessible
     }
     
+    int get_b(){
+        return b;
+     }
+    
 };
 
 int main() {
@@ -43,6 +47,7 @@ int main() {
     d.a = 100;  // OK
 //    d.b = 200;  // Compiler Error
 //    d.c = 300;  // Compiler Error
+    cout << d.get_b() << endl;
     return 0;
 }
 

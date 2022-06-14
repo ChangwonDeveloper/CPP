@@ -11,7 +11,7 @@ public:
     Mystring(const Mystring &source);                    // Copy constructor
     ~Mystring();                                                      // Destructor
     
-    Mystring &operator=(const Mystring &rhs);       // Copy assignment
+    Mystring &operator=(const Mystring &rhs);       // Copy assignment not constructor
     
     void display() const;
 

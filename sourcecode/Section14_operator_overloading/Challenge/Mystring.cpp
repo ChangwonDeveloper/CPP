@@ -65,6 +65,70 @@ Mystring &Mystring::operator=( Mystring &&rhs) {
     return *this;
 }
 
+bool operator==(const Mystring &lhs, const Mystring &rhs){
+        return (std::strcmp(lhs.str, rhs.str) == 0);
+}
+
+bool operator!=(const Mystring &lhs, const Mystring &rhs){
+    return (std::strcmp(lhs.str, rhs.str) != 0);
+}
+
+bool operator<(const Mystring &lhs, const Mystring &rhs){
+    return (std::strcmp(lhs.str, rhs.str) < 0);
+}
+
+bool operator>(const Mystring &lhs, const Mystring &rhs){
+    return (std::strcmp(lhs.str, rhs.str) > 0);
+}
+
+Mystring operator-(const Mystring &rhs){
+    char* buff = new char[strlen(rhs.str)+1];
+    strcpy(buff, rhs.str);
+    for(int i = 0; i < strlen(buff); i++){
+        buff[i] = tolower(buff[i]);
+    }
+    Mystring temp = {buff};
+    delete [] buff;
+    return temp;
+}
+
+Mystring operator+(const Mystring &lhs, const Mystring &rhs){
+    char* buff = new char[strlen(lhs.str)+strlen(rhs.str)+1];
+    strcpy(buff, lhs.str);
+    strcat(buff, rhs.str);
+    Mystring temp = {buff};
+    delete [] buff;
+    return temp;
+}
+
+Mystring operator+=(Mystring &lhs, const Mystring &rhs){
+    char* buff = new char[strlen(lhs.str)+strlen(rhs.str)+1];
+    strcpy(buff, lhs.str);
+    strcat(buff, rhs.str);
+    lhs = buff;
+    delete [] buff;
+    return lhs;
+}
+
+Mystring operator*(Mystring &lhs, int t){
+    char* buff = new char[1000];
+    for(int i = 0; i < t; i++){
+        strcat(buff, lhs.str);
+    }
+    lhs = buff;
+    delete [] buff;
+    return lhs;
+}
+
+Mystring operator*=(Mystring &lhs, int t){
+    char* buff = new char[1000];
+    for(int i = 0; i < t; i++){
+        strcat(buff, lhs.str);
+    }
+    lhs = buff;
+    delete [] buff;
+    return lhs;
+}
 
 // Display method
 void Mystring::display() const {
