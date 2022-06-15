@@ -28,4 +28,8 @@ void display(const std::vector<Trust_Account> &accounts);
 void deposit(std::vector<Trust_Account> &accounts, double amount);
 void withdraw(std::vector<Trust_Account> &accounts, double amount);
 
+void display(const std::vector<Account *> &accounts);
+void deposit(std::vector<Account *> &accounts, double amount);
+void withdraw(std::vector<Account *> &accounts, double amount);
+
 #endif
