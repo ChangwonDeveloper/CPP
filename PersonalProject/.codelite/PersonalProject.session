@@ -40,7 +40,7 @@
     </TabInfo>
     <TabInfo>
       <wxString Value="C:\Users\offic\Desktop\Programming\Udemy\CPP\PersonalProject\MoveConstructor\main.cpp" Name="FileName"/>
-      <int Value="27" Name="FirstVisibleLine"/>
+      <int Value="36" Name="FirstVisibleLine"/>
       <int Value="50" Name="CurrentLine"/>
       <wxArrayString Name="Bookmarks"/>
       <IntVector Name="CollapsedFolds"/>

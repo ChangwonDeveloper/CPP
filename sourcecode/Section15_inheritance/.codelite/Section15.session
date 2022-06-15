@@ -1,53 +1,193 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Session Name="C:\Users\frank\Desktop\CPPExamples\Section15\Section15.workspace">
-  <int Value="1" Name="m_selectedTab"/>
-  <wxString Value="C:\Users\frank\Desktop\CPPExamples\Section15\Section15.workspace" Name="m_workspaceName"/>
+<Session Name="C:\Users\offic\Desktop\Programming\Udemy\CPP\sourcecode\Section15_inheritance\Section15.workspace">
+  <int Value="20" Name="m_selectedTab"/>
+  <wxString Value="C:\Users\offic\Desktop\Programming\Udemy\CPP\sourcecode\Section15_inheritance\Section15.workspace" Name="m_workspaceName"/>
   <TabInfoArray Name="TabInfoArray">
     <TabInfo>
-      <wxString Value="C:\Users\frank\Desktop\CPPExamples\Section15\RedefiningBaseClassMethods\main.cpp" Name="FileName"/>
-      <int Value="21" Name="FirstVisibleLine"/>
+      <wxString Value="C:\Users\offic\Desktop\Programming\Udemy\CPP\sourcecode\Section15_inheritance\DerivingOurFirstClass\Account.h" Name="FileName"/>
+      <int Value="0" Name="FirstVisibleLine"/>
+      <int Value="13" Name="CurrentLine"/>
+      <wxArrayString Name="Bookmarks"/>
+      <IntVector Name="CollapsedFolds"/>
+    </TabInfo>
+    <TabInfo>
+      <wxString Value="C:\Users\offic\Desktop\Programming\Udemy\CPP\sourcecode\Section15_inheritance\DerivingOurFirstClass\Account.cpp" Name="FileName"/>
+      <int Value="17" Name="FirstVisibleLine"/>
+      <int Value="19" Name="CurrentLine"/>
+      <wxArrayString Name="Bookmarks"/>
+      <IntVector Name="CollapsedFolds"/>
+    </TabInfo>
+    <TabInfo>
+      <wxString Value="C:\Users\offic\Desktop\Programming\Udemy\CPP\sourcecode\Section15_inheritance\DerivingOurFirstClass\Savings_Account.h" Name="FileName"/>
+      <int Value="13" Name="FirstVisibleLine"/>
+      <int Value="15" Name="CurrentLine"/>
+      <wxArrayString Name="Bookmarks"/>
+      <IntVector Name="CollapsedFolds"/>
+    </TabInfo>
+    <TabInfo>
+      <wxString Value="C:\Users\offic\Desktop\Programming\Udemy\CPP\sourcecode\Section15_inheritance\DerivingOurFirstClass\Savings_Account.cpp" Name="FileName"/>
+      <int Value="8" Name="FirstVisibleLine"/>
+      <int Value="10" Name="CurrentLine"/>
+      <wxArrayString Name="Bookmarks"/>
+      <IntVector Name="CollapsedFolds"/>
+    </TabInfo>
+    <TabInfo>
+      <wxString Value="C:\Users\offic\Desktop\Programming\Udemy\CPP\sourcecode\Section15_inheritance\DerivingOurFirstClass\main.cpp" Name="FileName"/>
+      <int Value="42" Name="FirstVisibleLine"/>
+      <int Value="44" Name="CurrentLine"/>
+      <wxArrayString Name="Bookmarks"/>
+      <IntVector Name="CollapsedFolds"/>
+    </TabInfo>
+    <TabInfo>
+      <wxString Value="C:\Users\offic\Desktop\Programming\Udemy\CPP\sourcecode\Section15_inheritance\ProtectedMembersClassAccess\main.cpp" Name="FileName"/>
+      <int Value="47" Name="FirstVisibleLine"/>
+      <int Value="49" Name="CurrentLine"/>
+      <wxArrayString Name="Bookmarks"/>
+      <IntVector Name="CollapsedFolds"/>
+    </TabInfo>
+    <TabInfo>
+      <wxString Value="C:\Users\offic\Desktop\Programming\Udemy\CPP\sourcecode\Section15_inheritance\ConstructorsAndDestructors\main.cpp" Name="FileName"/>
+      <int Value="20" Name="FirstVisibleLine"/>
+      <int Value="22" Name="CurrentLine"/>
+      <wxArrayString Name="Bookmarks"/>
+      <IntVector Name="CollapsedFolds"/>
+    </TabInfo>
+    <TabInfo>
+      <wxString Value="C:\Users\offic\Desktop\Programming\Udemy\CPP\sourcecode\Section15_inheritance\BaseClassInitialization\main.cpp" Name="FileName"/>
+      <int Value="40" Name="FirstVisibleLine"/>
       <int Value="42" Name="CurrentLine"/>
       <wxArrayString Name="Bookmarks"/>
       <IntVector Name="CollapsedFolds"/>
     </TabInfo>
     <TabInfo>
-      <wxString Value="C:\Users\frank\Desktop\CPPExamples\Section15\ChallengeSolution\Trust_Account.cpp" Name="FileName"/>
-      <int Value="3" Name="FirstVisibleLine"/>
+      <wxString Value="C:\Users\offic\Desktop\Programming\Udemy\CPP\sourcecode\Section15_inheritance\CopyConstructorAssignmentOperator\main.cpp" Name="FileName"/>
+      <int Value="18" Name="FirstVisibleLine"/>
+      <int Value="19" Name="CurrentLine"/>
+      <wxArrayString Name="Bookmarks"/>
+      <IntVector Name="CollapsedFolds"/>
+    </TabInfo>
+    <TabInfo>
+      <wxString Value="C:\Users\offic\Desktop\Programming\Udemy\CPP\sourcecode\Section15_inheritance\RedefiningBaseClassMethods\Account.h" Name="FileName"/>
+      <int Value="13" Name="FirstVisibleLine"/>
+      <int Value="15" Name="CurrentLine"/>
+      <wxArrayString Name="Bookmarks"/>
+      <IntVector Name="CollapsedFolds"/>
+    </TabInfo>
+    <TabInfo>
+      <wxString Value="C:\Users\offic\Desktop\Programming\Udemy\CPP\sourcecode\Section15_inheritance\RedefiningBaseClassMethods\Account.cpp" Name="FileName"/>
+      <int Value="10" Name="FirstVisibleLine"/>
       <int Value="12" Name="CurrentLine"/>
       <wxArrayString Name="Bookmarks"/>
       <IntVector Name="CollapsedFolds"/>
     </TabInfo>
     <TabInfo>
-      <wxString Value="C:\Users\frank\Desktop\CPPExamples\Section15\ChallengeSolution\Trust_Account.h" Name="FileName"/>
-      <int Value="0" Name="FirstVisibleLine"/>
-      <int Value="6" Name="CurrentLine"/>
-      <wxArrayString Name="Bookmarks"/>
-      <IntVector Name="CollapsedFolds"/>
-    </TabInfo>
-    <TabInfo>
-      <wxString Value="C:\Users\frank\Desktop\CPPExamples\Section15\ChallengeSolution\main.cpp" Name="FileName"/>
-      <int Value="82" Name="FirstVisibleLine"/>
-      <int Value="97" Name="CurrentLine"/>
-      <wxArrayString Name="Bookmarks"/>
-      <IntVector Name="CollapsedFolds"/>
-    </TabInfo>
-    <TabInfo>
-      <wxString Value="C:\Users\frank\Desktop\CPPExamples\Section15\ChallengeSolution\Savings_Account.cpp" Name="FileName"/>
-      <int Value="0" Name="FirstVisibleLine"/>
-      <int Value="11" Name="CurrentLine"/>
-      <wxArrayString Name="Bookmarks"/>
-      <IntVector Name="CollapsedFolds"/>
-    </TabInfo>
-    <TabInfo>
-      <wxString Value="C:\Users\frank\Desktop\CPPExamples\Section15\ChallengeSolution\Account.cpp" Name="FileName"/>
+      <wxString Value="C:\Users\offic\Desktop\Programming\Udemy\CPP\sourcecode\Section15_inheritance\RedefiningBaseClassMethods\Savings_Account.h" Name="FileName"/>
       <int Value="0" Name="FirstVisibleLine"/>
       <int Value="0" Name="CurrentLine"/>
       <wxArrayString Name="Bookmarks"/>
       <IntVector Name="CollapsedFolds"/>
     </TabInfo>
+    <TabInfo>
+      <wxString Value="C:\Users\offic\Desktop\Programming\Udemy\CPP\sourcecode\Section15_inheritance\RedefiningBaseClassMethods\Savings_Account.cpp" Name="FileName"/>
+      <int Value="18" Name="FirstVisibleLine"/>
+      <int Value="20" Name="CurrentLine"/>
+      <wxArrayString Name="Bookmarks"/>
+      <IntVector Name="CollapsedFolds"/>
+    </TabInfo>
+    <TabInfo>
+      <wxString Value="C:\Users\offic\Desktop\Programming\Udemy\CPP\sourcecode\Section15_inheritance\RedefiningBaseClassMethods\main.cpp" Name="FileName"/>
+      <int Value="26" Name="FirstVisibleLine"/>
+      <int Value="28" Name="CurrentLine"/>
+      <wxArrayString Name="Bookmarks"/>
+      <IntVector Name="CollapsedFolds"/>
+    </TabInfo>
+    <TabInfo>
+      <wxString Value="C:\Users\offic\Desktop\Programming\Udemy\CPP\sourcecode\Section15_inheritance\Challenge\Account.h" Name="FileName"/>
+      <int Value="12" Name="FirstVisibleLine"/>
+      <int Value="14" Name="CurrentLine"/>
+      <wxArrayString Name="Bookmarks"/>
+      <IntVector Name="CollapsedFolds"/>
+    </TabInfo>
+    <TabInfo>
+      <wxString Value="C:\Users\offic\Desktop\Programming\Udemy\CPP\sourcecode\Section15_inheritance\Challenge\Account.cpp" Name="FileName"/>
+      <int Value="10" Name="FirstVisibleLine"/>
+      <int Value="12" Name="CurrentLine"/>
+      <wxArrayString Name="Bookmarks"/>
+      <IntVector Name="CollapsedFolds"/>
+    </TabInfo>
+    <TabInfo>
+      <wxString Value="C:\Users\offic\Desktop\Programming\Udemy\CPP\sourcecode\Section15_inheritance\Challenge\Savings_Account.cpp" Name="FileName"/>
+      <int Value="17" Name="FirstVisibleLine"/>
+      <int Value="19" Name="CurrentLine"/>
+      <wxArrayString Name="Bookmarks"/>
+      <IntVector Name="CollapsedFolds"/>
+    </TabInfo>
+    <TabInfo>
+      <wxString Value="C:\Users\offic\Desktop\Programming\Udemy\CPP\sourcecode\Section15_inheritance\Challenge\Savings_Account.h" Name="FileName"/>
+      <int Value="22" Name="FirstVisibleLine"/>
+      <int Value="24" Name="CurrentLine"/>
+      <wxArrayString Name="Bookmarks"/>
+      <IntVector Name="CollapsedFolds"/>
+    </TabInfo>
+    <TabInfo>
+      <wxString Value="C:\Users\offic\Desktop\Programming\Udemy\CPP\sourcecode\Section15_inheritance\Challenge\Account_Util.h" Name="FileName"/>
+      <int Value="15" Name="FirstVisibleLine"/>
+      <int Value="17" Name="CurrentLine"/>
+      <wxArrayString Name="Bookmarks"/>
+      <IntVector Name="CollapsedFolds"/>
+    </TabInfo>
+    <TabInfo>
+      <wxString Value="C:\Users\offic\Desktop\Programming\Udemy\CPP\sourcecode\Section15_inheritance\Challenge\Account_Util.cpp" Name="FileName"/>
+      <int Value="6" Name="FirstVisibleLine"/>
+      <int Value="8" Name="CurrentLine"/>
+      <wxArrayString Name="Bookmarks"/>
+      <IntVector Name="CollapsedFolds"/>
+    </TabInfo>
+    <TabInfo>
+      <wxString Value="C:\Users\offic\Desktop\Programming\Udemy\CPP\sourcecode\Section15_inheritance\Challenge\main.cpp" Name="FileName"/>
+      <int Value="0" Name="FirstVisibleLine"/>
+      <int Value="18" Name="CurrentLine"/>
+      <wxArrayString Name="Bookmarks"/>
+      <IntVector Name="CollapsedFolds"/>
+    </TabInfo>
+    <TabInfo>
+      <wxString Value="C:\Users\offic\Desktop\Programming\Udemy\CPP\sourcecode\Section15_inheritance\Challenge\Description.txt" Name="FileName"/>
+      <int Value="35" Name="FirstVisibleLine"/>
+      <int Value="37" Name="CurrentLine"/>
+      <wxArrayString Name="Bookmarks"/>
+      <IntVector Name="CollapsedFolds"/>
+    </TabInfo>
+    <TabInfo>
+      <wxString Value="C:\Users\offic\Desktop\Programming\Udemy\CPP\sourcecode\Section15_inheritance\Challenge\Checking_Account.h" Name="FileName"/>
+      <int Value="16" Name="FirstVisibleLine"/>
+      <int Value="18" Name="CurrentLine"/>
+      <wxArrayString Name="Bookmarks"/>
+      <IntVector Name="CollapsedFolds"/>
+    </TabInfo>
+    <TabInfo>
+      <wxString Value="C:\Users\offic\Desktop\Programming\Udemy\CPP\sourcecode\Section15_inheritance\Challenge\Checking_Account.cpp" Name="FileName"/>
+      <int Value="12" Name="FirstVisibleLine"/>
+      <int Value="14" Name="CurrentLine"/>
+      <wxArrayString Name="Bookmarks"/>
+      <IntVector Name="CollapsedFolds"/>
+    </TabInfo>
+    <TabInfo>
+      <wxString Value="C:\Users\offic\Desktop\Programming\Udemy\CPP\sourcecode\Section15_inheritance\Challenge\Trust_Account.h" Name="FileName"/>
+      <int Value="18" Name="FirstVisibleLine"/>
+      <int Value="20" Name="CurrentLine"/>
+      <wxArrayString Name="Bookmarks"/>
+      <IntVector Name="CollapsedFolds"/>
+    </TabInfo>
+    <TabInfo>
+      <wxString Value="C:\Users\offic\Desktop\Programming\Udemy\CPP\sourcecode\Section15_inheritance\Challenge\Trust_Account.cpp" Name="FileName"/>
+      <int Value="2" Name="FirstVisibleLine"/>
+      <int Value="23" Name="CurrentLine"/>
+      <wxArrayString Name="Bookmarks"/>
+      <IntVector Name="CollapsedFolds"/>
+    </TabInfo>
   </TabInfoArray>
   <SerializedObject Name="m_breakpoints">
-    <long Value="1" Name="Count"/>
+    <long Value="2" Name="Count"/>
     <SerializedObject Name="Breakpoint0">
       <wxString Value="C:\Users\frank\Desktop\CPPExamples\Section15\ChallengeSolution\Trust_Account.cpp" Name="file"/>
       <int Value="17" Name="lineno"/>
@@ -64,5 +204,22 @@
       <wxString Value="" Name="conditions"/>
       <int Value="0" Name="origin"/>
     </SerializedObject>
+    <SerializedObject Name="Breakpoint1">
+      <wxString Value="C:\Users\offic\Desktop\Programming\Udemy\CPP\sourcecode\Section15_inheritance\Challenge\Checking_Account.cpp" Name="file"/>
+      <int Value="3" Name="lineno"/>
+      <wxString Value="" Name="function_name"/>
+      <wxString Value="" Name="memory_address"/>
+      <int Value="1" Name="bp_type"/>
+      <int Value="0" Name="watchpoint_type"/>
+      <wxString Value="" Name="watchpt_data"/>
+      <CData Name="commandlist"/>
+      <bool Value="0" Name="regex"/>
+      <bool Value="0" Name="is_temp"/>
+      <bool Value="1" Name="is_enabled"/>
+      <int Value="0" Name="ignore_number"/>
+      <wxString Value="" Name="conditions"/>
+      <int Value="0" Name="origin"/>
+    </SerializedObject>
   </SerializedObject>
+  <wxString Value="*.c;*.cpp;*.cxx;*.cc;*.h;*.hpp;*.inc;*.mm;*.m;*.xrc;*.xml;*.json;*.sql;*.txt;*.plist;CMakeLists.txt;*.rc;*.iss" Name="m_findInFilesMask"/>
 </Session>
