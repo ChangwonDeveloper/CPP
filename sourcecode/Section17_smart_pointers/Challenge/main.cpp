@@ -78,3 +78,22 @@ int main() {
     display(*vec_ptr);
     return 0;
 }
+
+std::unique_ptr<std::vector<std::shared_ptr<Test>>> make(){
+    return std::make_unique<std::vector<std::shared_ptr<Test>>>();
+}
+
+void fill(std::vector<std::shared_ptr<Test>> &vec, int num){
+    for(int i = 1; i < num+1; i++){
+        int num = 0;
+        std::cout << "Enter data point [" << i << "] : ";
+        std::cin >> num;
+        vec.push_back(std::make_shared<Test>(num));
+    }
+}
+
+void display(const std::vector<std::shared_ptr<Test>>&vec){
+    for(const auto &ptr:vec)
+        std::cout << ptr->get_data() << std::endl;
+    
+}
