@@ -19,7 +19,7 @@ int main() {
     std::cin >> gallons;
     try {
         miles_per_gallon = calculate_mpg(miles, gallons);
-        std::cout << "Result: " << miles_per_gallon << std::endl;
+        std\::cout << "Result: " << miles_per_gallon << std::endl;
     }
     catch (int &ex) {
         std::cerr << "Tried to divide by zero" << std::endl;

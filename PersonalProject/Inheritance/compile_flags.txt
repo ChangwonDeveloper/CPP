@@ -1,0 +1,3 @@
+-IC:\Users\offic\Desktop\Programming\Udemy\CPP\PersonalProject\Inheritance
+-target
+i686-pc-windows-gnu

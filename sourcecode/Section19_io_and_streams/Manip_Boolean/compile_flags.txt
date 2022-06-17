@@ -1,0 +1,3 @@
+-IC:\Users\offic\Desktop\Programming\Udemy\CPP\sourcecode\Section19_io_and_streams\Manip_Boolean
+-target
+i686-pc-windows-gnu

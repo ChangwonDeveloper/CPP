@@ -1,33 +1,54 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Session Name="C:\Users\frank\Desktop\CPPExamples\Section17\Section17.workspace">
-  <int Value="1" Name="m_selectedTab"/>
-  <wxString Value="C:\Users\frank\Desktop\CPPExamples\Section17\Section17.workspace" Name="m_workspaceName"/>
+<Session Name="C:\Users\offic\Desktop\Programming\Udemy\CPP\sourcecode\Section17_smart_pointers\Section17.workspace">
+  <int Value="5" Name="m_selectedTab"/>
+  <wxString Value="C:\Users\offic\Desktop\Programming\Udemy\CPP\sourcecode\Section17_smart_pointers\Section17.workspace" Name="m_workspaceName"/>
   <TabInfoArray Name="TabInfoArray">
     <TabInfo>
-      <wxString Value="C:\Users\frank\Desktop\CPPExamples\Section17\Challenge\Description.txt" Name="FileName"/>
+      <wxString Value="C:\Users\offic\Desktop\Programming\Udemy\CPP\sourcecode\Section17_smart_pointers\UniquePointers\main.cpp" Name="FileName"/>
+      <int Value="18" Name="FirstVisibleLine"/>
+      <int Value="44" Name="CurrentLine"/>
+      <wxArrayString Name="Bookmarks"/>
+      <IntVector Name="CollapsedFolds"/>
+    </TabInfo>
+    <TabInfo>
+      <wxString Value="C:\Users\offic\Desktop\Programming\Udemy\CPP\sourcecode\Section17_smart_pointers\SharedPointers\main.cpp" Name="FileName"/>
+      <int Value="54" Name="FirstVisibleLine"/>
+      <int Value="76" Name="CurrentLine"/>
+      <wxArrayString Name="Bookmarks"/>
+      <IntVector Name="CollapsedFolds"/>
+    </TabInfo>
+    <TabInfo>
+      <wxString Value="C:\Users\offic\Desktop\Programming\Udemy\CPP\sourcecode\Section17_smart_pointers\WeakPointers\main.cpp" Name="FileName"/>
+      <int Value="0" Name="FirstVisibleLine"/>
+      <int Value="7" Name="CurrentLine"/>
+      <wxArrayString Name="Bookmarks"/>
+      <IntVector Name="CollapsedFolds"/>
+    </TabInfo>
+    <TabInfo>
+      <wxString Value="C:\Users\offic\Desktop\Programming\Udemy\CPP\sourcecode\Section17_smart_pointers\CustomDeleters\main.cpp" Name="FileName"/>
+      <int Value="0" Name="FirstVisibleLine"/>
+      <int Value="2" Name="CurrentLine"/>
+      <wxArrayString Name="Bookmarks"/>
+      <IntVector Name="CollapsedFolds"/>
+    </TabInfo>
+    <TabInfo>
+      <wxString Value="C:\Users\offic\Desktop\Programming\Udemy\CPP\sourcecode\Section17_smart_pointers\Challenge\Description.txt" Name="FileName"/>
       <int Value="0" Name="FirstVisibleLine"/>
       <int Value="0" Name="CurrentLine"/>
       <wxArrayString Name="Bookmarks"/>
       <IntVector Name="CollapsedFolds"/>
     </TabInfo>
     <TabInfo>
-      <wxString Value="C:\Users\frank\Desktop\CPPExamples\Section17\Challenge\main.cpp" Name="FileName"/>
-      <int Value="24" Name="FirstVisibleLine"/>
-      <int Value="67" Name="CurrentLine"/>
+      <wxString Value="C:\Users\offic\Desktop\Programming\Udemy\CPP\sourcecode\Section17_smart_pointers\Challenge\main.cpp" Name="FileName"/>
+      <int Value="71" Name="FirstVisibleLine"/>
+      <int Value="92" Name="CurrentLine"/>
       <wxArrayString Name="Bookmarks"/>
       <IntVector Name="CollapsedFolds"/>
     </TabInfo>
     <TabInfo>
-      <wxString Value="C:\Users\frank\Desktop\CPPExamples\Section17\ChallengeSolution\main.cpp" Name="FileName"/>
-      <int Value="27" Name="FirstVisibleLine"/>
-      <int Value="63" Name="CurrentLine"/>
-      <wxArrayString Name="Bookmarks"/>
-      <IntVector Name="CollapsedFolds"/>
-    </TabInfo>
-    <TabInfo>
-      <wxString Value="C:\Users\frank\Desktop\CPPExamples\Section17\ChallengeSolution\Description.txt" Name="FileName"/>
+      <wxString Value="C:\Users\offic\Desktop\Programming\Udemy\CPP\sourcecode\Section17_smart_pointers\UniquePointers\I_Printable.h" Name="FileName"/>
       <int Value="0" Name="FirstVisibleLine"/>
-      <int Value="16" Name="CurrentLine"/>
+      <int Value="0" Name="CurrentLine"/>
       <wxArrayString Name="Bookmarks"/>
       <IntVector Name="CollapsedFolds"/>
     </TabInfo>
@@ -99,4 +120,5 @@
       <int Value="0" Name="origin"/>
     </SerializedObject>
   </SerializedObject>
+  <wxString Value="*.c;*.cpp;*.cxx;*.cc;*.h;*.hpp;*.inc;*.mm;*.m;*.xrc;*.xml;*.json;*.sql;*.txt;*.plist;CMakeLists.txt;*.rc;*.iss" Name="m_findInFilesMask"/>
 </Session>

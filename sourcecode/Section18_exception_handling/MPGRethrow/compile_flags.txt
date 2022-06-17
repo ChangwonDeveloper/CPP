@@ -1,0 +1,3 @@
+-IC:\Users\offic\Desktop\Programming\Udemy\CPP\sourcecode\Section18_exception_handling\MPGRethrow
+-target
+i686-pc-windows-gnu

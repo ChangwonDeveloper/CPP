@@ -10,6 +10,9 @@ using namespace std;
 
 int main() {
     // test your code here
+    
+    Checking_Account ca {"asdsd", -155};
+    
     std::cout << "Program completed successfully" << std::endl;
     return 0;
 }
