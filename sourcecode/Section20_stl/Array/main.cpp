@@ -18,7 +18,7 @@ void test1() {
     std::cout << "\nTest1 =========================" << std::endl;
     std::array<int, 5> arr1 {1,2,3,4,5};     // double {{ }} if C++ 11
     std::array<int, 5> arr2;
-    
+
     display(arr1);
     display(arr2);          // Elements are not initialized (contain 'garbage')
         

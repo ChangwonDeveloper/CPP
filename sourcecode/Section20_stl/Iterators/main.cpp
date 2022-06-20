@@ -123,10 +123,14 @@ void test5() {
 }
 int main() {
 
-//    test1();
-//    test2();
-//    test3();
-//    test4();
+    test1();
+    std::cout << "===========================" << std::endl;
+    test2();
+    std::cout << "===========================" << std::endl;
+    test3();
+    std::cout << "===========================" << std::endl;
+    test4();
+    std::cout << "===========================" << std::endl;
     test5();
     return 0;
 }

@@ -19,6 +19,7 @@ public:
     T get_value() const { return value; }
 };
 
+// can be the same of different
 template <typename T1, typename T2>
 struct My_Pair {
     T1 first;

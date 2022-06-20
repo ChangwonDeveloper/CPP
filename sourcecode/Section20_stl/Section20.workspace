@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CodeLite_Workspace Name="Section20" Database="" Version="10.0.0">
   <Project Name="Macros" Path="Macros/Macros.project" Active="No"/>
-  <Project Name="FunctionTemplates" Path="FunctionTemplates/FunctionTemplates.project" Active="Yes"/>
+  <Project Name="FunctionTemplates" Path="FunctionTemplates/FunctionTemplates.project" Active="No"/>
   <Project Name="ClassTemplates" Path="ClassTemplates/ClassTemplates.project" Active="No"/>
   <Project Name="ClassTemplateArray" Path="ClassTemplateArray/ClassTemplateArray.project" Active="No"/>
   <Project Name="Iterators" Path="Iterators/Iterators.project" Active="No"/>
@@ -22,7 +22,7 @@
   <Project Name="Map" Path="Map/Map.project" Active="No"/>
   <Project Name="Stack" Path="Stack/Stack.project" Active="No"/>
   <Project Name="Queue" Path="Queue/Queue.project" Active="No"/>
-  <Project Name="PriorityQueue" Path="PriorityQueue/PriorityQueue.project" Active="No"/>
+  <Project Name="PriorityQueue" Path="PriorityQueue/PriorityQueue.project" Active="Yes"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug" Selected="yes">
       <Environment/>

@@ -147,7 +147,7 @@ void test6() {
     };
     
     display(stooges);
-    stooges.sort();
+    stooges.sort(); // operator overloaded <
     display(stooges);
 }
 

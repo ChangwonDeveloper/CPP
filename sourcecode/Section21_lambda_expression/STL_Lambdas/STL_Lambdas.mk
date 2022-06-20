@@ -5,18 +5,18 @@
 ## Debug
 ProjectName            :=STL_Lambdas
 ConfigurationName      :=Debug
-WorkspacePath          :=C:/Users/frank/Documents/CPPGitHub/UdemyBeginningCPP/Section21
-ProjectPath            :=C:/Users/frank/Documents/CPPGitHub/UdemyBeginningCPP/Section21/STL_Lambdas
+WorkspacePath          :=C:/Users/offic/Desktop/Programming/Udemy/CPP/sourcecode/Section21_lambda_expression
+ProjectPath            :=C:/Users/offic/Desktop/Programming/Udemy/CPP/sourcecode/Section21_lambda_expression/STL_Lambdas
 IntermediateDirectory  :=./Debug
 OutDir                 := $(IntermediateDirectory)
 CurrentFileName        :=
 CurrentFilePath        :=
 CurrentFileFullPath    :=
-User                   :=frank
-Date                   :=26/06/2021
+User                   :=offic
+Date                   :=20/06/2022
 CodeLitePath           :="C:/Program Files/CodeLite"
-LinkerName             :="C:/Program Files/mingw64/bin/g++.exe"
-SharedObjectLinkerName :="C:/Program Files/mingw64/bin/g++.exe" -shared -fPIC
+LinkerName             :="C:/mingw64/bin/g++.exe"
+SharedObjectLinkerName :="C:/mingw64/bin/g++.exe" -shared -fPIC
 ObjectSuffix           :=.o
 DependSuffix           :=.o.d
 PreprocessSuffix       :=.i
@@ -36,7 +36,7 @@ ObjectsFileList        :="STL_Lambdas.txt"
 PCHCompileFlags        :=
 MakeDirCommand         :=makedir
 RcCmpOptions           := 
-RcCompilerName         :="C:/Program Files/mingw64/bin/windres.exe"
+RcCompilerName         :="C:/mingw64/bin/windres.exe"
 LinkOptions            :=  
 IncludePath            :=  $(IncludeSwitch). $(IncludeSwitch). 
 IncludePCH             := 
@@ -49,13 +49,13 @@ LibPath                := $(LibraryPathSwitch).
 ## Common variables
 ## AR, CXX, CC, AS, CXXFLAGS and CFLAGS can be overriden using an environment variables
 ##
-AR       := "C:/Program Files/mingw64/bin/ar.exe" rcu
-CXX      := "C:/Program Files/mingw64/bin/g++.exe"
-CC       := "C:/Program Files/mingw64/bin/gcc.exe"
+AR       := "C:/mingw64/bin/ar.exe" rcu
+CXX      := "C:/mingw64/bin/g++.exe"
+CC       := "C:/mingw64/bin/gcc.exe"
 CXXFLAGS := -std=c++14 -Wall -g -O0 -Wall $(Preprocessors)
 CFLAGS   :=  -g -O0 -Wall $(Preprocessors)
 ASFLAGS  := 
-AS       := "C:/Program Files/mingw64/bin/as.exe"
+AS       := "C:/mingw64/bin/as.exe"
 
 
 ##
@@ -95,7 +95,7 @@ PreBuild:
 ##
 $(IntermediateDirectory)/main.cpp$(ObjectSuffix): main.cpp
 	@$(CXX) $(CXXFLAGS) $(IncludePCH) $(IncludePath) -MG -MP -MT$(IntermediateDirectory)/main.cpp$(ObjectSuffix) -MF$(IntermediateDirectory)/main.cpp$(DependSuffix) -MM main.cpp
-	$(CXX) $(IncludePCH) $(SourceSwitch) "C:/Users/frank/Documents/CPPGitHub/UdemyBeginningCPP/Section21/STL_Lambdas/main.cpp" $(CXXFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/main.cpp$(ObjectSuffix) $(IncludePath)
+	$(CXX) $(IncludePCH) $(SourceSwitch) "C:/Users/offic/Desktop/Programming/Udemy/CPP/sourcecode/Section21_lambda_expression/STL_Lambdas/main.cpp" $(CXXFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/main.cpp$(ObjectSuffix) $(IncludePath)
 $(IntermediateDirectory)/main.cpp$(PreprocessSuffix): main.cpp
 	$(CXX) $(CXXFLAGS) $(IncludePCH) $(IncludePath) $(PreprocessOnlySwitch) $(OutputSwitch) $(IntermediateDirectory)/main.cpp$(PreprocessSuffix) main.cpp
 
