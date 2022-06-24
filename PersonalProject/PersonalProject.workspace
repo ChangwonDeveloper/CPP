@@ -12,7 +12,8 @@
   <Project Name="StaticMember2" Path="StaticMember2/StaticMember2.project" Active="No"/>
   <Project Name="Section13_Challenge" Path="Section13_Challenge/Section13_Challenge.project" Active="No"/>
   <Project Name="OOP_Practice2" Path="OOP_Practice2/OOP_Practice2.project" Active="No"/>
-  <Project Name="Inheritance" Path="Inheritance/Inheritance.project" Active="Yes"/>
+  <Project Name="Inheritance" Path="Inheritance/Inheritance.project" Active="No"/>
+  <Project Name="Banking_Record_System" Path="Banking_Record_System/Banking_Record_System.project" Active="Yes"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug" Selected="yes">
       <Environment/>
@@ -29,6 +30,7 @@
       <Project Name="Section13_Challenge" ConfigName="Debug"/>
       <Project Name="OOP_Practice2" ConfigName="Debug"/>
       <Project Name="Inheritance" ConfigName="Debug"/>
+      <Project Name="Banking_Record_System" ConfigName="Debug"/>
     </WorkspaceConfiguration>
     <WorkspaceConfiguration Name="Release" Selected="yes">
       <Environment/>
@@ -45,6 +47,7 @@
       <Project Name="Section13_Challenge" ConfigName="Release"/>
       <Project Name="OOP_Practice2" ConfigName="Release"/>
       <Project Name="Inheritance" ConfigName="Release"/>
+      <Project Name="Banking_Record_System" ConfigName="Release"/>
     </WorkspaceConfiguration>
   </BuildMatrix>
 </CodeLite_Workspace>
