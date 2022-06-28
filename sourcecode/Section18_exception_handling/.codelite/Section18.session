@@ -12,35 +12,35 @@
     </TabInfo>
     <TabInfo>
       <wxString Value="C:\Users\offic\Desktop\Programming\Udemy\CPP\sourcecode\Section18_exception_handling\MilesPerGallonFunction\main.cpp" Name="FileName"/>
-      <int Value="6" Name="FirstVisibleLine"/>
+      <int Value="27" Name="FirstVisibleLine"/>
       <int Value="29" Name="CurrentLine"/>
       <wxArrayString Name="Bookmarks"/>
       <IntVector Name="CollapsedFolds"/>
     </TabInfo>
     <TabInfo>
       <wxString Value="C:\Users\offic\Desktop\Programming\Udemy\CPP\sourcecode\Section18_exception_handling\MPGFunctionMultipleExceptions\main.cpp" Name="FileName"/>
-      <int Value="0" Name="FirstVisibleLine"/>
+      <int Value="10" Name="FirstVisibleLine"/>
       <int Value="12" Name="CurrentLine"/>
       <wxArrayString Name="Bookmarks"/>
       <IntVector Name="CollapsedFolds"/>
     </TabInfo>
     <TabInfo>
       <wxString Value="C:\Users\offic\Desktop\Programming\Udemy\CPP\sourcecode\Section18_exception_handling\StackUnwinding\main.cpp" Name="FileName"/>
-      <int Value="0" Name="FirstVisibleLine"/>
+      <int Value="23" Name="FirstVisibleLine"/>
       <int Value="25" Name="CurrentLine"/>
       <wxArrayString Name="Bookmarks"/>
       <IntVector Name="CollapsedFolds"/>
     </TabInfo>
     <TabInfo>
       <wxString Value="C:\Users\offic\Desktop\Programming\Udemy\CPP\sourcecode\Section18_exception_handling\MilesPerGallonFunctionExceptionClasses\main.cpp" Name="FileName"/>
-      <int Value="15" Name="FirstVisibleLine"/>
+      <int Value="38" Name="FirstVisibleLine"/>
       <int Value="40" Name="CurrentLine"/>
       <wxArrayString Name="Bookmarks"/>
       <IntVector Name="CollapsedFolds"/>
     </TabInfo>
     <TabInfo>
       <wxString Value="C:\Users\offic\Desktop\Programming\Udemy\CPP\sourcecode\Section18_exception_handling\ConstructorException\Account.cpp" Name="FileName"/>
-      <int Value="3" Name="FirstVisibleLine"/>
+      <int Value="20" Name="FirstVisibleLine"/>
       <int Value="22" Name="CurrentLine"/>
       <wxArrayString Name="Bookmarks"/>
       <IntVector Name="CollapsedFolds"/>
@@ -61,7 +61,7 @@
     </TabInfo>
     <TabInfo>
       <wxString Value="C:\Users\offic\Desktop\Programming\Udemy\CPP\sourcecode\Section18_exception_handling\ConstructorException\Account_Util.cpp" Name="FileName"/>
-      <int Value="3" Name="FirstVisibleLine"/>
+      <int Value="0" Name="FirstVisibleLine"/>
       <int Value="0" Name="CurrentLine"/>
       <wxArrayString Name="Bookmarks"/>
       <IntVector Name="CollapsedFolds"/>
@@ -96,28 +96,28 @@
     </TabInfo>
     <TabInfo>
       <wxString Value="C:\Users\offic\Desktop\Programming\Udemy\CPP\sourcecode\Section18_exception_handling\Challenge\Description.txt" Name="FileName"/>
-      <int Value="0" Name="FirstVisibleLine"/>
+      <int Value="13" Name="FirstVisibleLine"/>
       <int Value="15" Name="CurrentLine"/>
       <wxArrayString Name="Bookmarks"/>
       <IntVector Name="CollapsedFolds"/>
     </TabInfo>
     <TabInfo>
       <wxString Value="C:\Users\offic\Desktop\Programming\Udemy\CPP\sourcecode\Section18_exception_handling\Challenge\IllegalBalanceException.h" Name="FileName"/>
-      <int Value="0" Name="FirstVisibleLine"/>
+      <int Value="13" Name="FirstVisibleLine"/>
       <int Value="15" Name="CurrentLine"/>
       <wxArrayString Name="Bookmarks"/>
       <IntVector Name="CollapsedFolds"/>
     </TabInfo>
     <TabInfo>
       <wxString Value="C:\Users\offic\Desktop\Programming\Udemy\CPP\sourcecode\Section18_exception_handling\CatchCPPExceptions\main.cpp" Name="FileName"/>
-      <int Value="2" Name="FirstVisibleLine"/>
+      <int Value="11" Name="FirstVisibleLine"/>
       <int Value="13" Name="CurrentLine"/>
       <wxArrayString Name="Bookmarks"/>
       <IntVector Name="CollapsedFolds"/>
     </TabInfo>
     <TabInfo>
       <wxString Value="C:\Users\offic\Desktop\Programming\Udemy\CPP\sourcecode\Section18_exception_handling\ChallengeSolution\IllegalBalanceException.h" Name="FileName"/>
-      <int Value="0" Name="FirstVisibleLine"/>
+      <int Value="8" Name="FirstVisibleLine"/>
       <int Value="10" Name="CurrentLine"/>
       <wxArrayString Name="Bookmarks"/>
       <IntVector Name="CollapsedFolds"/>
@@ -153,20 +153,20 @@
     <TabInfo>
       <wxString Value="C:\Users\offic\Desktop\Programming\Udemy\CPP\sourcecode\Section18_exception_handling\Challenge\Account.h" Name="FileName"/>
       <int Value="0" Name="FirstVisibleLine"/>
-      <int Value="7" Name="CurrentLine"/>
+      <int Value="21" Name="CurrentLine"/>
       <wxArrayString Name="Bookmarks"/>
       <IntVector Name="CollapsedFolds"/>
     </TabInfo>
     <TabInfo>
       <wxString Value="C:\Users\offic\Desktop\Programming\Udemy\CPP\sourcecode\Section18_exception_handling\Challenge\InsufficientFundsException.h" Name="FileName"/>
-      <int Value="0" Name="FirstVisibleLine"/>
+      <int Value="9" Name="FirstVisibleLine"/>
       <int Value="11" Name="CurrentLine"/>
       <wxArrayString Name="Bookmarks"/>
       <IntVector Name="CollapsedFolds"/>
     </TabInfo>
     <TabInfo>
       <wxString Value="C:\Users\offic\Desktop\Programming\Udemy\CPP\sourcecode\Section18_exception_handling\Challenge\main.cpp" Name="FileName"/>
-      <int Value="0" Name="FirstVisibleLine"/>
+      <int Value="15" Name="FirstVisibleLine"/>
       <int Value="17" Name="CurrentLine"/>
       <wxArrayString Name="Bookmarks"/>
       <IntVector Name="CollapsedFolds"/>
@@ -182,6 +182,13 @@
       <wxString Value="C:\Users\offic\Desktop\Programming\Udemy\CPP\sourcecode\Section18_exception_handling\Challenge\Account_Util.cpp" Name="FileName"/>
       <int Value="0" Name="FirstVisibleLine"/>
       <int Value="0" Name="CurrentLine"/>
+      <wxArrayString Name="Bookmarks"/>
+      <IntVector Name="CollapsedFolds"/>
+    </TabInfo>
+    <TabInfo>
+      <wxString Value="C:\Users\offic\Desktop\Programming\Udemy\CPP\sourcecode\Section18_exception_handling\DivideByZeroException\main.cpp" Name="FileName"/>
+      <int Value="0" Name="FirstVisibleLine"/>
+      <int Value="17" Name="CurrentLine"/>
       <wxArrayString Name="Bookmarks"/>
       <IntVector Name="CollapsedFolds"/>
     </TabInfo>
