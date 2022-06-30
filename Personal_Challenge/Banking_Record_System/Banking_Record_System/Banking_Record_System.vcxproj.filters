@@ -31,5 +31,8 @@
     <Text Include="Account_info.txt">
       <Filter>Source Files</Filter>
     </Text>
+    <Text Include="Account_number.txt">
+      <Filter>Source Files</Filter>
+    </Text>
   </ItemGroup>
 </Project>

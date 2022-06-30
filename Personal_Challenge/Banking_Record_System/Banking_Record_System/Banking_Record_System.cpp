@@ -2,14 +2,20 @@
 //
 
 #include <iostream>
+#include <fstream>
+#include <ostream>
+#include <vector>
 #include "Account.h"
 
 void display_menu();
 int get_user_input();
 void go_to_selected_menu(int user_input);
+bool check_account_name();
 
+// Error in counting account number. it count even though the new account is not successfully created
 int main()
 {
+
     display_menu();
     int input = get_user_input();
     std::cout << "Your input is " << input << std::endl;
@@ -57,8 +63,48 @@ void go_to_selected_menu(int user_input)
     switch (user_input)
     {
     case 1:
+    {
+
         std::cout << "\nWELCOME TO THE CREATING A NEW ACCOUNT MENU!\n" << std::endl;
         Account account;
         break;
     }
+    case 2:
+        std::cout << "\nWELCOME TO THE DEPOSIT AMOUNT MENU!\n" << std::endl;
+        Account::log_in_account();
+        break;
+    }
+}
+
+bool check_account_name()
+{
+    std::string user_account_name_input{ "" };
+    std::cout << "Enter your account name : ";
+    std::cin >> user_account_name_input;
+    std::vector<std::string> user_candidate;
+
+    std::ifstream account_info_file("Account_info");
+    std::string account_unique_number_val, account_name_val, account_password_val;
+    double account_balance_val;
+    if (account_info_file.fail())
+    {
+        std::cerr << "Error occured in check account name" << std::endl;
+        return false;
+    }
+
+    while (!account_info_file.eof())
+    {
+        account_info_file >> account_unique_number_val;
+        account_info_file >> account_name_val;
+        account_info_file >> account_password_val;
+        account_info_file >> account_balance_val;
+        std::cout << account_name_val << std::endl;
+        if (account_name_val == user_account_name_input)
+        {
+            user_candidate.push_back(user_account_name_input);
+            std::cout << "Account name is found" << std::endl;
+            return true;
+        }
+    }
+    return false;
 }

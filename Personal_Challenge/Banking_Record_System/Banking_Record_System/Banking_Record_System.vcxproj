@@ -135,6 +135,7 @@
   </ItemGroup>
   <ItemGroup>
     <Text Include="Account_info.txt" />
+    <Text Include="Account_number.txt" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
