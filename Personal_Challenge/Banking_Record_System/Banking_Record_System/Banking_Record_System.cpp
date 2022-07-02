@@ -15,7 +15,6 @@ bool check_account_name();
 // Error in counting account number. it count even though the new account is not successfully created
 int main()
 {
-
     display_menu();
     int input = get_user_input();
     std::cout << "Your input is " << input << std::endl;
@@ -71,7 +70,9 @@ void go_to_selected_menu(int user_input)
     }
     case 2:
         std::cout << "\nWELCOME TO THE DEPOSIT AMOUNT MENU!\n" << std::endl;
-        Account::log_in_account();
+        Account user = Account::get_account_info(Account::log_in_account());
+        user.show_account_info();
+        std::cout << user.is_enough_balance(user.deposit_amount()) << std::endl;
         break;
     }
 }

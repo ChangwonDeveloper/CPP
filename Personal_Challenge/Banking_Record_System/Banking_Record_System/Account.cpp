@@ -5,8 +5,6 @@
 #include <fstream>
 #include <ostream>
 
-std::vector<std::string> Account::unique_number_list;
-std::string Account::account_info = "Account_info";
 
 
 Account::Account()
@@ -16,6 +14,16 @@ Account::Account()
 	account_password = create_a_new_account_password();
 	account_balance = create_a_new_account_balance();
 	write_account_info(account_unique_number, account_name, account_password, account_balance);
+}
+
+
+Account::Account(std::string account_unique_number_val, std::string account_name_val, std::string account_password_val, double account_balance_val)
+{
+	std::cout << "Account with multi data is called" << std::endl;
+	account_unique_number = account_unique_number_val;
+	account_name = account_name_val;
+	account_password = account_password_val;
+	account_balance = account_balance_val;
 }
 
 Account::~Account()
@@ -99,16 +107,17 @@ double Account::create_a_new_account_balance() {
 	}
 }
 
-
+// if name is the same, overwrite it or, add it at the end of the file
 void Account::write_account_info(std::string account_unique_number_val, std::string account_name_val, std::string account_password_val, double account_balance_val)
 {
-	std::ofstream account_file("Account_info.txt", std::ios::out | std::ios::app);
+	std::ofstream account_file("Account_info.txt", std::ios::out);
 	if (account_file.fail())
 	{
 		std::cerr << "\nError in writing file" << std::endl;
 	}
-	else
+	while(!account_file.eof())
 	{
+		if()
 		account_file << account_unique_number_val << " ";
 		account_file << account_name_val << " ";
 		account_file << account_password_val << " ";
@@ -216,10 +225,8 @@ bool Account::check_account_info_duplciate(std::string search_type, std::string 
 
 }
 
-std::vector<std::string> Account::log_in_account()
+std::string Account::log_in_account()
 {
-	std::vector<std::string> Account_info;
-
 	
 	while (true)
 	{
@@ -229,10 +236,8 @@ std::vector<std::string> Account::log_in_account()
 		if (check_account_info_duplciate("account_name", account_name_val)
 			&& check_account_info_duplciate("account_password", account_password_val))
 		{
-			Account_info.push_back(account_name_val);
-			Account_info.push_back(account_password_val);
 			std::cout << "Welcome! You are successfully log in!" << std::endl;
-			return Account_info;
+			return account_name_val;
 		}
 		std::cout << "Sorry. Account name and password do not match. Try again" << std::endl;
 	}
@@ -253,4 +258,65 @@ std::string Account::ask_account_password()
 	std::cout << "Enter your account password : ";
 	std::cin >> account_pasword_val;
 	return account_pasword_val;
+}
+
+
+
+Account Account::get_account_info(std::string account_name_val)
+{
+	std::ifstream account_info_file("Account_info.txt");
+	std::string account_unique_number_val, account_name_value, account_password_val;
+	double account_balance_val;
+
+	while (!account_info_file.eof())
+	{
+		account_info_file >> account_unique_number_val;
+		account_info_file >> account_name_value;
+		account_info_file >> account_password_val;
+		account_info_file >> account_balance_val;
+
+		if (account_name_val == account_name_value)
+		{
+			account_info_file.close();
+			return Account(account_unique_number_val, account_name_val, account_password_val, account_balance_val);
+		}
+	}
+	account_info_file.close();
+}
+
+void Account::show_account_info() const
+{
+	std::cout << "\n\n***********************************" << std::endl;
+	std::cout << "********ACCOUNT INFORMATION********" << std::endl;
+	std::cout << "***********************************\n" << std::endl;
+	std::cout << "ACCOUNT NAME : " << get_account_name() << std::endl;
+	std::cout << "ACCOUNT BALANCE : " << get_account_balacne() << std::endl;
+}
+
+double Account::deposit_amount() const
+{
+	double deposit_amount = { 0 };
+	ask_amount("deposit");
+	// need to valid check for double
+	// need to make a function for check double and reuse it over and over
+	std::cin >> deposit_amount;
+
+	return deposit_amount;
+}
+
+void Account::ask_amount(std::string user_choice) const
+{
+	std::cout << "How much do you want to " << user_choice << "? : ";
+}
+
+bool Account::is_enough_balance(double user_balance) const
+{
+	if (user_balance <= account_balance)
+	{
+		account_balance -= user_balance;
+		std::cout << "You have enough balance" << std::endl;
+		return true;
+	}
+	std::cout << "Sorry. You do not have enough balacne" << std::endl;
+	return false;
 }
