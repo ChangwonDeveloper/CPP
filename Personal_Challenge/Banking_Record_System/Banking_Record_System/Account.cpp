@@ -13,7 +13,7 @@ Account::Account()
 	account_name = create_a_new_account_name();
 	account_password = create_a_new_account_password();
 	account_balance = create_a_new_account_balance();
-	write_account_info(account_unique_number, account_name, account_password, account_balance);
+	write_account_info(account_unique_number, account_name, account_password, account_balance);;
 }
 
 
@@ -72,6 +72,7 @@ std::string Account::create_a_new_account_name() {
 		return account_name_val;
 	}
 }
+
 std::string Account::create_a_new_account_password() {
 	std::string account_password_val = "";
 
@@ -108,24 +109,41 @@ double Account::create_a_new_account_balance() {
 }
 
 // if name is the same, overwrite it or, add it at the end of the file
-void Account::write_account_info(std::string account_unique_number_val, std::string account_name_val, std::string account_password_val, double account_balance_val)
+void Account::write_account_info(std::string const account_unique_number_val, std::string const account_name_val, std::string const account_password_val, double const account_balance_val)
 {
-	std::ofstream account_file("Account_info.txt", std::ios::out);
+	std::fstream account_file("Account_info.txt");
+	std::string account_unique_number_value, account_name_value, account_password_value;
+	double account_balance_value;
 	if (account_file.fail())
 	{
 		std::cerr << "\nError in writing file" << std::endl;
 	}
 	while(!account_file.eof())
+		account_file >> account_unique_number_value;
+		account_file >> account_name_value;
+		account_file >> account_password_value;
+		account_file >> account_balance_value;
 	{
-		if()
-		account_file << account_unique_number_val << " ";
-		account_file << account_name_val << " ";
-		account_file << account_password_val << " ";
-		account_file << account_balance_val << " " << std::endl;
-		account_file.close();
-		write_account_number();
-		std::cout << "\nSuccess to create a new account!" << std::endl;
+		if (account_name_value == get_account_name())
+		{
+			account_file << get_account_unique_number();
+			account_file << get_account_name();
+			account_file << get_account_password();
+			account_file << get_account_balacne();
+			account_file.close();
+			std::cout << "\nSuccess to modify the balance!" << std::endl;
+		}
 	}
+	account_file >> account_unique_number_value;
+	account_file >> account_name_value;
+	account_file >> account_password_value;
+	account_file >> account_balance_value;
+	account_file << account_unique_number_val;
+	account_file << account_name_val;
+	account_file << account_password_val;
+	account_file << account_balance_val;
+	account_file.close();
+	std::cout << "\nSuccess to create a new account!" << std::endl;
 }
 
 int Account::get_account_number() const
@@ -284,7 +302,7 @@ Account Account::get_account_info(std::string account_name_val)
 	account_info_file.close();
 }
 
-void Account::show_account_info() const
+void Account::show_account_info()
 {
 	std::cout << "\n\n***********************************" << std::endl;
 	std::cout << "********ACCOUNT INFORMATION********" << std::endl;
@@ -309,7 +327,7 @@ void Account::ask_amount(std::string user_choice) const
 	std::cout << "How much do you want to " << user_choice << "? : ";
 }
 
-bool Account::is_enough_balance(double user_balance) const
+bool Account::is_enough_balance(double user_balance)
 {
 	if (user_balance <= account_balance)
 	{

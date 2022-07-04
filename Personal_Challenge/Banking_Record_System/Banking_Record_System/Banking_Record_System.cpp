@@ -72,7 +72,10 @@ void go_to_selected_menu(int user_input)
         std::cout << "\nWELCOME TO THE DEPOSIT AMOUNT MENU!\n" << std::endl;
         Account user = Account::get_account_info(Account::log_in_account());
         user.show_account_info();
-        std::cout << user.is_enough_balance(user.deposit_amount()) << std::endl;
+        double deposit_amount = user.deposit_amount();
+        user.is_enough_balance(deposit_amount);
+        user.write_account_info(user.get_account_unique_number(), user.get_account_name(),
+            user.get_account_password(), user.get_account_balacne());
         break;
     }
 }
